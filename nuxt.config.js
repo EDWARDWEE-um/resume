@@ -1,9 +1,9 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
+  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -52,22 +52,7 @@ export default {
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/axios',
-    '@nuxtjs/toast',
     'nuxt-material-design-icons',
-    '@nuxtjs/proxy', ['nuxt-mail', {
-      message: {
-        to: 'tickets@payitforward.io',
-      },
-      smtp: {
-        host: 'smtp.gmail.com',
-        port: 587,
-        auth: {
-          user: 'pif.feedbacks@gmail.com',
-          pass: 'Cognixus123'
-        },
-      },
-    }],
   ],
   i18n: {
     skipSettingLocaleOnNavigate: true,
@@ -108,8 +93,6 @@ export default {
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ["vee-validate/dist/rules"],
-    vendor: ["vee-validate"],
   },
   server: {
     port: process.env.PORT

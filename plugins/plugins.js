@@ -1,8 +1,6 @@
 import Vue from "vue";
 import AOS from "aos";
 import { BootstrapVue } from 'bootstrap-vue'
-import * as VeeValidate from "vee-validate";
-import { required, email } from "vee-validate/dist/rules";
 import MenuIcon from 'vue-material-design-icons/Menu.vue';
 import "aos/dist/aos.css";
 import 'bootstrap/dist/css/bootstrap.css'
@@ -35,13 +33,3 @@ Vue.use(AOS.init({
   
   }));
 Vue.use(MenuIcon);
-Vue.use(VeeValidate);
-
-Vue.component("ValidationProvider", VeeValidate.ValidationProvider);
-Vue.component("ValidationObserver", VeeValidate.ValidationObserver);
-
-VeeValidate.extend("email", email)
-VeeValidate.extend("required", {
-    ...required,
-    message: field => `${$nuxt.$t("contact.field_required_1")} ${field.charAt(0).toUpperCase() +field.substr(1).toLowerCase()} ${$nuxt.$t("contact.field_required_2")}`
-});
