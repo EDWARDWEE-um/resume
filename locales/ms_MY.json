@@ -1,0 +1,162 @@
+{
+    "language": "Malay",
+    "homepage": {
+        "name": "Edward Wee",
+        "role": "Jurutera Perisian",
+        "greeting": "Salam Sejahtera",
+        "about_me": "Tentang Saya",
+        "description": "Saya seorang jurutera perisian yang beraspirasi dan mempunyai pengalaman membina aplikasi web dan mobile. Saya kini berada di tahun akhir pengajian saya untuk a Sarjana Muda dalam Sains Komputer pengkhususan dalam sistem komputer dan rangkaian di Universiti Malaya dan sedang mencari peluang kerjaya.",
+        "resume": "Resume",
+        "projects": "Projek"
+    },
+    "experience_page": {
+        "title_1": "EXPERI",
+        "title_2": "ENCES",
+        "subtitle": "PROFESSIONAL AND ACADEMIC",
+        "education": "Education",
+        "professional": "Professional",
+        "education_1": {
+            "date": "2012-2016",
+            "experience": "Sijil Pelajaran Malaysia (SPM)",
+            "description": "Studied Pure Science with straight A's ( 2A+ , 6A , 1A-) "
+        },
+        "education_2": {
+            "date": "2017-2018",
+            "experience": "Sijil Tinggi Persekolahan Malaysia (STPM)",
+            "description": "Studied Pure Science with a CGPA of 3.83 ( 3A , 1B+ )"
+        },
+        "education_3": {
+            "date": "From September 2019",
+            "experience": "Bachelor of Computer Science at UM",
+            "description": "Specialised in Computer Systems and Networking in University of Malaya with a CGPA of 3.96"
+        },
+        "professional_1": {
+            "date": "March 2021 - March 2022",
+            "experience": "Digital Resilience SBX (DRSBX)",
+            "description": "Our team consisted of 6 people have taken a task from University of New South Wales to develop a security assessment web application. I am a backend engineer for this project."
+        },
+        "professional_2": {
+            "date": "July 2021 - January 2022",
+            "experience": "Cognixus Technologies - Software Engineer Intern",
+            "description": "Carried out industrial training as a software engineer. Learned how to design and develop scalable mobile and web application. Learned how to develop backend of an application and Docker."
+        },
+        "professional_3": {
+            "date": "March 2022 - Present",
+            "experience": "Employee Performance Review System (FYP)",
+            "description": "Collaborated with Cognixus Technologies to develop a performance review plugin for the existing Hexfere HRMS system."
+        }
+    },
+    "contact_page": {
+        "title_1": "GET IN ",
+        "title_2": "TOUCH",
+        "subtitle": "WANT TO GET IN TOUCH? HERE'S HOW YOU CAN REACH ME.",
+        "contact_1_description": "Send me an email !",
+        "contact_2_description": "Message me on Whatsapp !",
+        "contact_3_description": "Let's connect on LinkedIn !",
+        "contact_4_description": "Check out my Github repos !"
+    },
+    "skills_page": {
+        "title_1": "SKI",
+        "title_2": "LLS",
+        "subtitle": "HERE ARE MY SKILLSETS",
+        "skill_1": "CSS",
+        "skill_2": "DJANGO",
+        "skill_3": "DOCKER",
+        "skill_4": "FLASK",
+        "skill_5": "FLUTTER",
+        "skill_6": "GIT",
+        "skill_7": "HEROKU",
+        "skill_8": "HTML",
+        "skill_9": "I18N",
+        "skill_10": "NETLIFY",
+        "skill_11": "NUXT",
+        "skill_12": "POSTGRES",
+        "skill_13": "POSTMAN",
+        "skill_14": "PYTHON",
+        "skill_15": "VUE"
+    },
+    "projects_page": {
+        "title_1": "PROJECTS ",
+        "title_2": "INVOLVED",
+        "subtitle": "THIS IN MY JOURNEY",
+        "link": "Link",
+        "click_here": "Click Here",
+        "category": "Category",
+        "status": "Status",
+        "project_1": {
+            "title": "BeFitter",
+            "start_date": "December 2020",
+            "end_date": "January 2021",
+            "category": "Self Project",
+            "status": "Completed",
+            "description": "A simple exercise blog that is build using Django. Throughout the project, I have been exposed to the basics of web development primarily in HTML and CSS. Besides that, I have also learned how to utilise and deploy Django application on Heroku with this project."
+        },
+        "project_2": {
+            "title": "Anime Tracker",
+            "start_date": "April 2021",
+            "end_date": "May 2021",
+            "category": "Self Project",
+            "status": "Completed",
+            "description": "Anime Tracker fetches data from Jikan API and allows users to perform CRUD operations. This project has exposed me to usage of REST API to link my React Frontend and Django Backend together."
+        },
+        "project_3": {
+            "title": "Algorithm Class Project (Shortest Distance Between 2 Locations)",
+            "start_date": "March 2021",
+            "end_date": "June 2021",
+            "category": "University Assignment",
+            "status": "Completed",
+            "description": "We have been tasked to create an application that calculates the shortest drivable distance between two locations input by the user. We have used Map Box API and utilised min-heap algorithm to calculate and decide the shortest distance provided by Map Box API."
+        },
+        "project_4": {
+            "title": "Pay It Forward Mobile Application",
+            "start_date": "July 2021",
+            "end_date": "October 2021",
+            "category": "Internship",
+            "status": "Completed",
+            "description": "Pay It Forward (PIF) is a platform for promoting a caring community through the spirit of sharing and paying forward. Throughout the development of this project, I have learned how to implement UI/UX designs, business logics, state management and unit testing using the Flutter framework. Furthermore, I have also gained valuable experience on the development of industrial level mobile applications."
+        },
+        "project_5": {
+            "title": "Pay It Forward Website",
+            "start_date": "October 2021",
+            "end_date": "November 2021",
+            "category": "Internship",
+            "status": "Completed",
+            "description": "A fellow intern from UM and I have been tasked to develop a website for Pay It Forward (PIF). I have learned how to develop responsive website using Nuxt Js that has language switching functionality using i18n service and email validation using vee-validate. I have also learned how to write Docker commands and deploy the Docker image to Kubernetes Cluster."
+        },
+        "project_6": {
+            "title": "Hexfere HRMS Jetson Nano Web Application",
+            "start_date": "December 2021",
+            "end_date": "January 2021",
+            "category": "Internship",
+            "status": "Completed",
+            "description": "Created a web application to using Flask allowing the ML team to integrate it's facial recognition technology into it. The micro-framework Flask reduces the resource utilisation and allows Jetson Nano to allocate more resources for the facial recognition technology."
+        },
+        "project_7": {
+            "title": "Digital Resilience SBX",
+            "start_date": "March 2021",
+            "end_date": "March 2022",
+            "category": "Internship",
+            "status": "Completed",
+            "description": "We,a group consist of 6 members from University of Malaya have been commissioned by Dr Yenni Tim from The University of New South Wales to create a prototype of Cyber Security Assessment Web application. I am responsible for the backend development of the project together with my group leader. Throughout the project, I have learned how to design database, implementing the designs in Django by writing the models and creating API's for CRUD operations. I have also learned how to conduct unit testing and customise Django Admin Page. Furthermore, I have also learned how to setup Docker and Docker Compose to allow us to deploy as a droplet in Digital Ocean."
+        },
+        "project_8": {
+            "title": "Expense Tracker",
+            "start_date": "January 2022",
+            "end_date": "Present",
+            "category": "Self Project",
+            "status": "Ongoing",
+            "description": "Started Expense Tracker project to further enhance my mobile development skillsets. I have learned deeper about Flutter's State Management (Cubit and State). Furthermore, I have also learned how to perform CRUD operations through utilising Firebase's Firestore as a No SQL database."
+        }
+    },
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "chinese": "简体中文",
+    "contact": "Contact",
+    "english": "English",
+    "footer": {
+        "credit": "Copyright © 2022 Edward Wee. All rights reserved."
+    },
+    "home": "Home",
+    "malay": "Malay"
+}
