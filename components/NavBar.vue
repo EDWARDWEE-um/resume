@@ -1,7 +1,23 @@
 <template>
   <client-only>
     <nav class="navbar" :class="{ shrink: scrollTop >= 200 }" id="nav">
-      <div class="app-icon-container"></div>
+      <div class="app-icon-container">
+        <div v-if="isMobile" class="theme-container">
+         <img
+              v-if="$colorMode.value == 'light'"
+              class="themeIcon"
+              :src="require('~/assets/icons/common/light-mode.png')"
+              @click="$colorMode.preference = 'dark'"
+            />
+            <img
+              v-if="$colorMode.value == 'dark'"
+              class="themeIcon"
+              :src="require('~/assets/icons/common/dark-mode.png')"
+              @click="$colorMode.preference = 'light'"
+            />
+        </div>
+      </div>
+      
       <div v-if="!isMobile">
         <div class="buttons-container">
           <div class="button ml-4" v-for="(b, i) in buttons" :key="i">
@@ -204,10 +220,8 @@ nav {
     display: flex;
     flex: 1;
 
-    img.app-icon {
-      margin-bottom: 10%;
-      width: 50px;
-      height: 50px;
+    .theme-container {
+      margin-left: 10%;
     }
   }
 

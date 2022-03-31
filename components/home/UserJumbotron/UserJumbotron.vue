@@ -8,14 +8,6 @@
     <p>
       {{ $t("homepage.description") }}
     </p>
-    <div v-if="!isMobile" class="lead">
-      <a class="btn btn-primary btn-lg" href="/experience" role="button">
-        {{ $t("homepage.experience") }}
-      </a>
-      <a class="btn btn-secondary btn-lg" href="/project" role="button">
-        {{ $t("homepage.projects") }}
-      </a>
-    </div>
   </div>
 </template>
 

@@ -10,6 +10,7 @@
       />
     </b-button>
     <b-sidebar id="sidebar-right" right shadow no-header width="100%">
+      
       <template #default="{ hide }">
         <div class="nav-background">
           <nav class="mb-3">
