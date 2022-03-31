@@ -8,7 +8,7 @@
       />
     </Transition>
     <Transition name="bottom" appear>
-      <ExExperience style="margin-top:50%"/>
+      <ExExperience class="section"/>
     </Transition>
     <!-- ADD BLOBS HERE -->
   </div>
@@ -45,9 +45,8 @@ div.experience-page-container {
 @media only screen and (max-width: 768px) {
   div.experience-page-container {
   height: 100%;
-
     .section {
-      margin-bottom: 20%;
+      margin-top: 50%;
     }
   }
 }
