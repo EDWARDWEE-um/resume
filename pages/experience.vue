@@ -2,7 +2,6 @@
   <div class="experience-page-container">
     <Transition name="top" appear>
       <CoTitle
-        class="section"
         :title_part_1="this.$t('experience_page.title_1')"
         :title_part_2="this.$t('experience_page.title_2')"
         :subtitle="this.$t('experience_page.subtitle')"
