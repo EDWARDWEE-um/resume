@@ -8,7 +8,7 @@
       />
     </Transition>
     <Transition name="bottom" appear>
-      <ExExperience />
+      <ExExperience style="margin-top:50%"/>
     </Transition>
     <!-- ADD BLOBS HERE -->
   </div>
