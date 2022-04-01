@@ -152,7 +152,7 @@ div.drawer-container {
   flex-direction: column;
   flex: 1;
   height: 100vh;
-  background-image: linear-gradient(rgb(255, 235, 221), rgb(254, 249, 245));
+  background-image: linear-gradient(var(--bg)15%, var(--bg-secondary));
 
   .sidebar-header {
     display: flex;
@@ -215,7 +215,7 @@ div.language-container {
     display: flex;
     align-self: flex-end;
     border-radius: 20px;
-    background-color: #ffe9d8;
+    background-color: #ded0bf;
     padding: 8px;
     margin-bottom: 20px;
 
@@ -284,7 +284,7 @@ div.language-container {
         }
       }
       #button-item-active {
-        background-color: #ffe9d8 !important;
+        background-color: #ded0bf !important;
         display: flex;
         outline: none !important;
         box-shadow: none;

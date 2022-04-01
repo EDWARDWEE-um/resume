@@ -42,14 +42,13 @@ export default {};
 }
 
 div.experience-page-container {
-  height: 100%;
+  height: 80vh;
   background: var(--bg);
   .section {
   }
 
   @media only screen and (max-width: 768px) {
-    .section {
-    }
+    height: 100%;
   }
 }
 </style>

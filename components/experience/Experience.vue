@@ -66,12 +66,12 @@ h1 {
   .education-container {
     text-align: right;
     width: 40vw;
-    margin-right: 1%;
+    margin-right: 2%;
   }
   .professional-container {
     text-align: left;
     width: 40vw;
-    margin-left: 1%;
+    margin-left: 2%;
   }
   .vertical-line {
     height: 70vh;

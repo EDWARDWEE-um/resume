@@ -86,7 +86,7 @@ p {
   margin-top: 1%;
 }
 .footer-container {
-  background: red;
+  background: var(--bg-secondary);
   max-width: 100%;
   height: auto;
   display: flex;
@@ -139,7 +139,6 @@ p {
     font-size: 2vw;
   }
   .footer-container {
-    background: paleturquoise;
     max-width: 100%;
     height: auto;
     display: flex;
