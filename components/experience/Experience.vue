@@ -1,8 +1,6 @@
 <template>
   <div class="experience-container">
     <div
-      data-aos="slide-right"
-      data-aos-duration="2000"
       class="education-container"
     >
       <h1>{{ $t("experience_page.education") }}</h1>
@@ -26,8 +24,6 @@
     <hr />
     <div
       class="professional-container"
-      data-aos="slide-left"
-      data-aos-duration="2000"
     >
       <h1>{{ $t("experience_page.professional") }}</h1>
       <ExExperienceText
