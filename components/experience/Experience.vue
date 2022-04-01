@@ -86,6 +86,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: auto;
     .education-container {
       text-align: center;
       width: 90%;
