@@ -84,7 +84,7 @@ h1 {
   }
   .experience-container {
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     .education-container {
       text-align: center;
