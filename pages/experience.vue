@@ -46,7 +46,6 @@ div.experience-page-container {
   div.experience-page-container {
   height: 100%;
     .section {
-      margin-top: 50%;
     }
   }
 }

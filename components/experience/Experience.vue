@@ -85,7 +85,6 @@ h1 {
   .experience-container {
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
     margin-bottom: 50%;
     .education-container {
       text-align: center;
