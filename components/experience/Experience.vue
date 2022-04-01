@@ -62,7 +62,7 @@ h1 {
   justify-content: center;
   width: 100%;
   height: 80vh;
-  margin-top: 2%;
+  margin-top: 5%;
   .education-container {
     text-align: right;
     width: 40vw;
@@ -84,8 +84,8 @@ h1 {
   }
   .experience-container {
     flex-direction: column;
+    justify-content: start;
     align-items: center;
-    margin-bottom: 50%;
     .education-container {
       text-align: center;
       width: 90%;

@@ -44,9 +44,8 @@ div.experience-page-container {
 
 @media only screen and (max-width: 768px) {
   div.experience-page-container {
-  height: 100%;
+  height: auto;
     .section {
-      margin-top: 60%;
     }
   }
 }
