@@ -1,9 +1,6 @@
 <template>
   <div class="footer-container">
     <div class="footer-1">
-      <NuxtLink to="/">
-        <img class="logo" src="~/assets/icons/common/edward.png" />
-      </NuxtLink>
       <div class="footer-contacts">
         <div class="buttons-container">
           <button class="btn" type="button" @click="github">
@@ -21,12 +18,50 @@
         </div>
       </div>
     </div>
+    <div class="footer-1">
+      <div class="button" v-for="(b, i) in buttons" :key="i">
+        <div @click="$router.push({ path: b.route })">
+          <h6
+            class="pageButton"
+            :class="{ pageButtonActive: b.route == currentRoute }"
+          >
+            {{ $t(b.title) }}
+          </h6>
+        </div>
+      </div>
+    </div>
     <p>{{ $t("footer.credit") }}</p>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      buttons: [
+        {
+          title: "home",
+          route: "/",
+        },
+        {
+          title: "Experience",
+          route: "/experience",
+        },
+        {
+          title: "Skills",
+          route: "/skills",
+        },
+        {
+          title: "Projects",
+          route: "/project",
+        },
+        {
+          title: "Contact",
+          route: "/contact",
+        },
+      ],
+    };
+  },
   methods: {
     gmail() {
       window.open("mailto:edwardwee11@gmail.com");
@@ -48,7 +83,7 @@ export default {
 p {
   text-align: center;
   letter-spacing: 0.82px;
-  margin-top: 0%;
+  margin-top: 1%;
 }
 .footer-container {
   background: red;
@@ -56,29 +91,39 @@ p {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   .footer-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     .logo {
       width: 12vw;
       height: auto;
-      margin-top: 40%;
-      margin-left: 20%;
     }
     .footer-contacts {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-right: 3%;
-      margin-top: 10%;
       .buttons-container {
+        margin-top: 10%;
+        margin-bottom: 5%;
         flex-direction: row;
         .icons {
-          width: 2vw;
-          height: 2vw;
+          width: 3vw;
+          height: auto;
         }
+      }
+    }
+    .button {
+      .pageButton {
+        color: black;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1vw;
+        line-height: 18px;
+        letter-spacing: 0.21px;
+        margin-left: 25px;
+        margin-right: 25px;
       }
     }
   }
@@ -91,34 +136,41 @@ p {
   p {
     text-align: center;
     letter-spacing: 0.82px;
-    margin-top: 0%;
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .footer-container {
+    background: paleturquoise;
+    max-width: 100%;
     height: auto;
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     .footer-1 {
-      flex-direction: column;
-      justify-content: flex-start;
-      margin-top: 0%;
-      .logo {
-        width: 40vw;
-        margin-left: 10%;
-        margin-top: 10%;
-      }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
       .footer-contacts {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 10%;
-        margin-left: 8%;
         .buttons-container {
+          margin-top: 10%;
+          margin-bottom: 5%;
           flex-direction: row;
           .icons {
-            width: 8vw;
+            width: 5vw;
             height: auto;
           }
+        }
+      }
+      .button {
+        .pageButton {
+          color: black;
+          cursor: pointer;
+          font-weight: 600;
+          font-size: 2vw;
+          margin:0;
         }
       }
     }
