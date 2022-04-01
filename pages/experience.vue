@@ -8,7 +8,7 @@
       />
     </Transition>
     <Transition name="bottom" appear>
-      <ExExperience class="section"/>
+      <ExExperience />
     </Transition>
     <!-- ADD BLOBS HERE -->
   </div>
@@ -39,12 +39,11 @@ export default {};
 }
 
 div.experience-page-container {
-  min-height: 80vh;
+  height: 100%;
 }
 
 @media only screen and (max-width: 768px) {
   div.experience-page-container {
-  height: auto;
     .section {
     }
   }
