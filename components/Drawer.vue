@@ -154,6 +154,10 @@ div.drawer-container {
     opacity: 0.5;
   }
 }
+span{
+        color: var(--color-primary-text) !important;
+
+}
 
 .nav-background {
   display: flex;
@@ -269,7 +273,7 @@ div.language-container {
   flex-direction: column;
   align-items: flex-start;
   .modal-content {
-    background-color: #ffffffc7;
+    background-color: var(--bg-language-bg);
     width: 70%;
     margin: auto;
     border-radius: 15px;
@@ -292,7 +296,7 @@ div.language-container {
         }
       }
       #button-item-active {
-        background-color: #ded0bf !important;
+        background-color: var(--color-button-active) !important;
         display: flex;
         outline: none !important;
         box-shadow: none;

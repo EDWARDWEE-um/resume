@@ -3,21 +3,21 @@
     <nav class="navbar" :class="{ shrink: scrollTop >= 200 }" id="nav">
       <div class="app-icon-container">
         <div v-if="isMobile" class="theme-container">
-         <img
-              v-if="$colorMode.value == 'light'"
-              class="themeIcon"
-              :src="require('~/assets/icons/common/light-mode.png')"
-              @click="$colorMode.preference = 'dark'"
-            />
-            <img
-              v-if="$colorMode.value == 'dark'"
-              class="themeIcon"
-              :src="require('~/assets/icons/common/dark-mode.png')"
-              @click="$colorMode.preference = 'light'"
-            />
+          <img
+            v-if="$colorMode.value == 'light'"
+            class="themeIcon"
+            :src="require('~/assets/icons/common/light-mode.png')"
+            @click="$colorMode.preference = 'dark'"
+          />
+          <img
+            v-if="$colorMode.value == 'dark'"
+            class="themeIcon"
+            :src="require('~/assets/icons/common/dark-mode.png')"
+            @click="$colorMode.preference = 'light'"
+          />
         </div>
       </div>
-      
+
       <div v-if="!isMobile">
         <div class="buttons-container">
           <div class="button ml-4" v-for="(b, i) in buttons" :key="i">
@@ -236,7 +236,8 @@ nav {
       align-items: center;
 
       .pageButton {
-        color: gray;
+        color: var(--color-nav);
+
         cursor: pointer;
         font-weight: 600;
         font-size: 14px;
@@ -245,7 +246,8 @@ nav {
       }
 
       .pageButtonActive {
-        color: #000;
+        color: var(--color-nav-active);
+
         cursor: default;
       }
     }
@@ -288,6 +290,10 @@ img.themeIcon {
 }
 .dropdown-item-text {
   font-size: 14px !important;
+}
+span{
+  color: var(--color-nav) !important;
+
 }
 
 .dropdown-title-custom {
