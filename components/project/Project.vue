@@ -100,12 +100,13 @@ ul.timeline {
   list-style-type: none;
   position: relative;
   padding-left: 2.5rem;
+  
 }
 
 /* Timeline vertical line */
 ul.timeline:before {
   content: " ";
-  background: #fff;
+  background: var(--bg-secondary);
   display: inline-block;
   position: absolute;
   left: 16px;

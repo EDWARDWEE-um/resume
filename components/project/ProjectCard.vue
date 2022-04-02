@@ -1,6 +1,6 @@
 <template>
-  <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-    <div data-aos="fade-right" class="timeline-arrow"></div>
+  <li class="timeline-item rounded ml-3 p-4 shadow">
+    <div data-aos="fade-right" class="timeline-arrow" ></div>
     <div data-aos="fade-down-right">
       <h1>{{ title }}</h1>
       <h2>{{ start_date }} - {{ end_date }}</h2>
@@ -107,12 +107,13 @@ img.project-image {
 }
 li.timeline-item {
   margin: 20px 0;
+  background: var(--bg-secondary);
 }
 
 /* Timeline item arrow */
 .timeline-arrow {
   border-top: 0.5rem solid transparent;
-  border-right: 0.5rem solid #fff;
+  border-right: 0.5rem solid var(--bg-secondary);
   border-bottom: 0.5rem solid transparent;
   display: block;
   position: absolute;
@@ -122,11 +123,11 @@ li.timeline-item {
 /* Timeline item circle marker */
 li.timeline-item::before {
   content: " ";
-  background: #ddd;
+  background: var(--bg);
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid var(--bg-secondary);
   left: 11px;
   width: 14px;
   height: 14px;
@@ -139,17 +140,23 @@ h1 {
   font-weight: 700;
   font-size: 1.4vw;
   letter-spacing: 0.82px;
+        color: var(--color-primary-text);
+
 }
 h2 {
   font-variant: bold;
   font-weight: 600;
   font-size: 1.4vw;
   letter-spacing: 0.82px;
+        color: var(--color-primary-text);
+
 }
 p {
   font-size: 1vw;
   line-height: 20px;
   letter-spacing: 0.21px;
+        color: var(--color-primary-text);
+
 }
 @media only screen and (max-width: 768px) {
   img.project-image {
