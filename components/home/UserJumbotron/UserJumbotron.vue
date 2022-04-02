@@ -35,18 +35,28 @@ export default {
     font-size: 4vw;
     letter-spacing: 0.82px;
     margin-bottom: 5%;
+      color: var(--color-primary-text);
+
+  }
+  hr{
+      color: var(--color-line);
+    
   }
   h1.subtitle {
     font-variant: bold;
     font-weight: 500;
     font-size: 3vw;
     letter-spacing: 0.82px;
+      color: var(--color-primary-text);
+
   }
   p {
     text-align: justify;
     font-size: 1vw;
     line-height: 32px;
     letter-spacing: 0.21px;
+      color: var(--color-primary-text);
+
   }
 }
 @media only screen and (max-width: 768px) {

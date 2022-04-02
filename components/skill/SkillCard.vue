@@ -33,6 +33,7 @@ export default {
   }
   h5 {
     text-align: center;
+    color:var(--color-primary-text);
   }
 }
 @media only screen and (max-width: 768px) {

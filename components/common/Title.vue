@@ -42,19 +42,21 @@ div.about-PIF {
     line-height: 67px;
     letter-spacing: 0.82px;
     text-align: center;
+    color: var(--color-primary-text);
     .highlight {
       color: var(--bg-secondary);
     }
   }
 
   p {
-    color: #8d8d8d;
+    color: var(--color-subtitle-text);
     text-align: center;
     font-size: 1.5vw;
   }
   .line {
     width: 50%;
     margin: auto;
+    color:var(--color-line);
   }
   .text-container {
     padding: 0 10%;

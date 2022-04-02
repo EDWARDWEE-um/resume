@@ -76,11 +76,14 @@ export default {
       font-size: 3vw;
       letter-spacing: 0.82px;
       margin-top: 5%;
+      color: var(--color-primary-text);
     }
     h3 {
       text-align: center;
       font-size: 2vw;
       letter-spacing: 0.82px;
+      color: var(--color-primary-text);
+
     }
   }
   .lower-card {

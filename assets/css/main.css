@@ -5,15 +5,25 @@
   --bg: #f3f5f4;
   --bg-secondary: #d2b48c;
   --border-color: #ddd;
+  --color-primary-text: black;
+  --color-line: black;
+  --color-nav-shrink:rgba(255, 255, 255, 0.8);
+  --color-subtitle-text:#8d8d8d;
+
 }
 
 .dark-mode {
-  --color: #ebf4f1;
+  --color-primary-text: #b2b8b6;
+  --color-secondary-text: #b2b8b6;
   --color-primary: #41b38a;
   --color-secondary: #fdf9f3;
+  --color-line: white;
   --bg: #091a28;
-  --bg-secondary: #071521;
+  --bg-secondary: #214a6d;
   --border-color: #0d2538;
+  --color-nav-shrink:rgba(27, 24, 24, 0.8);
+  --color-subtitle-text:#8d8d8d;
+  
 }
 .sepia-mode {
   --color: #433422;

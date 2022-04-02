@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  methods: {
+methods: {
     email() {
       window.open("mailto:edwardwee11@gmail.com");
     },

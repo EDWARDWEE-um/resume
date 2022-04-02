@@ -84,7 +84,9 @@ p {
   text-align: center;
   letter-spacing: 0.82px;
   margin-top: 1%;
+  color: var(--color-primary-text);
 }
+
 .footer-container {
   background: var(--bg-secondary);
   max-width: 100%;
@@ -116,7 +118,7 @@ p {
     }
     .button {
       .pageButton {
-        color: black;
+        color: var(--color-primary-text);
         cursor: pointer;
         font-weight: 600;
         font-size: 1vw;
@@ -165,11 +167,10 @@ p {
       }
       .button {
         .pageButton {
-          color: black;
           cursor: pointer;
           font-weight: 600;
           font-size: 2vw;
-          margin:0;
+          margin: 0;
         }
       }
     }

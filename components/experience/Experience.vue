@@ -1,8 +1,6 @@
 <template>
   <div class="experience-container">
-    <div
-      class="education-container"
-    >
+    <div class="education-container">
       <h1>{{ $t("experience_page.education") }}</h1>
       <ExExperienceText
         :date="this.$t('experience_page.education_3.date')"
@@ -22,9 +20,7 @@
     </div>
     <div class="vertical-line"></div>
     <hr />
-    <div
-      class="professional-container"
-    >
+    <div class="professional-container">
       <h1>{{ $t("experience_page.professional") }}</h1>
       <ExExperienceText
         :date="this.$t('experience_page.professional_3.date')"
@@ -37,7 +33,7 @@
         :description="this.$t('experience_page.professional_2.description')"
       />
       <ExExperienceText
-      :date="this.$t('experience_page.professional_1.date')"
+        :date="this.$t('experience_page.professional_1.date')"
         :experience="this.$t('experience_page.professional_1.experience')"
         :description="this.$t('experience_page.professional_1.description')"
       />
@@ -55,6 +51,7 @@ h1 {
   font-weight: 700;
   font-size: 3vw;
   letter-spacing: 0.82px;
+  color: var(--color-primary-text);
 }
 .experience-container {
   display: flex;

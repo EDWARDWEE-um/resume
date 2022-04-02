@@ -262,7 +262,7 @@ nav {
 }
 
 nav.shrink {
-  background: rgba(255, 255, 255, 0.8);
+  background: var(--color-nav-shrink);
 }
 
 img.pageIcon {

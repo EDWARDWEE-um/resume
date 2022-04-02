@@ -34,6 +34,8 @@ export default {
     font-size: 1.4vw;
     letter-spacing: 0.82px;
     margin-top: 2%;
+    color: var(--color-primary-text);
+
   }
   h2 {
     font-variant: bold;
@@ -41,12 +43,16 @@ export default {
     font-size: 1.4vw;
     letter-spacing: 0.82px;
     margin-top: 2%;
+    color: var(--color-primary-text);
+
   }
   p {
     font-size: 1vw;
     line-height: 32px;
     letter-spacing: 0.21px;
     margin-top: 2%;
+    color: var(--color-primary-text);
+
   }
 }
 @media only screen and (max-width: 768px) {
