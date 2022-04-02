@@ -17,10 +17,18 @@
             <b-nav id="drawer-nav" vertical>
               <div class="sidebar-header">
                 <img
+                 v-if="$colorMode.value == 'light'"
                   class="sidebar-icon"
                   src="~/assets/icons/common/edward.png"
                   @click="$router.push('/')"
                 />
+                  <img
+                 v-if="$colorMode.value == 'dark'"
+                  class="sidebar-icon"
+                  src="~/assets/icons/common/edwarddark.png"
+                  @click="$router.push('/')"
+                />
+
 
                 <b-nav-item active @click="hide">
                   <img
@@ -183,14 +191,14 @@ div.drawer-container {
   margin-top: 10%;
   margin-left: 8%;
   h6.pageButton {
-    color: gray;
+    color: var(--color-nav);
     cursor: pointer;
     font-size: 18px;
     font-weight: 550;
   }
 
   h6.pageButtonActive {
-    color: #000;
+    color: var(--color-nav-active);
     cursor: default;
   }
 
@@ -215,7 +223,7 @@ div.language-container {
     display: flex;
     align-self: flex-end;
     border-radius: 20px;
-    background-color: #ded0bf;
+    background-color: var(--color-language-button);
     padding: 8px;
     margin-bottom: 20px;
 

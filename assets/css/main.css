@@ -9,6 +9,11 @@
   --color-line: black;
   --color-nav-shrink:rgba(255, 255, 255, 0.8);
   --color-subtitle-text:#8d8d8d;
+  --color-nav-active:black;
+  --color-nav:grey;
+  --color-language-buttion:#ded0bf;
+  --bg-footer: #d3af80;
+
 
 }
 
@@ -19,10 +24,14 @@
   --color-secondary: #fdf9f3;
   --color-line: white;
   --bg: #091a28;
-  --bg-secondary: #214a6d;
+  --bg-secondary: #0c3050;
   --border-color: #0d2538;
   --color-nav-shrink:rgba(27, 24, 24, 0.8);
   --color-subtitle-text:#8d8d8d;
+  --color-nav-active:white;
+  --color-language-button:rgb(22, 65, 156);
+
+
   
 }
 .sepia-mode {

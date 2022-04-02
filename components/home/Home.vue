@@ -3,8 +3,15 @@
     <div card="home-top">
       <div v-if="!isMobile">
         <img
+          v-if="$colorMode.value == 'light'"
           class="app-icon"
           src="~/assets/icons/common/edward.png"
+          @click="$router.push('/')"
+        />
+          <img
+          v-if="$colorMode.value == 'dark'"
+          class="app-icon"
+          src="~/assets/icons/common/edwarddark.png"
           @click="$router.push('/')"
         />
       </div>
@@ -58,7 +65,7 @@ export default {
 .app-icon {
   width: 10vw;
   height: auto;
-  margin:1%;
+  margin: 1%;
 }
 .home1 {
   height: 100%;
@@ -106,7 +113,6 @@ export default {
 
 @media only screen and (max-width: 800px) {
   .home1 {
-
     .home-card-background {
       display: flex;
       justify-content: center;

@@ -54,6 +54,7 @@ export default {
   box-shadow: 0 6px 20px 0 grey;
   border-radius: 25px;
   border: none;
+  background: var(--bg);
   .upper-card {
     flex-grow: 5;
     background-color: var(--bg-secondary);
@@ -83,7 +84,6 @@ export default {
       font-size: 2vw;
       letter-spacing: 0.82px;
       color: var(--color-primary-text);
-
     }
   }
   .lower-card {
@@ -91,6 +91,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
     .icons {
       width: 3vw;
       height: 3vw;
@@ -119,7 +120,6 @@ export default {
     margin-top: 10%;
     .upper-card {
       flex-grow: 5;
-      background-color: var(--bg-secondary);
       display: flex;
       flex-direction: column;
       justify-content: center;
