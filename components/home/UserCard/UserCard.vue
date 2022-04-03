@@ -47,8 +47,10 @@ export default {
 
 <style scoped lang="scss">
 .card {
+  width: 30vw;
+  height: 65vh;
   min-width: 50%;
-  min-height: 80%;
+  min-height: 70%;
   display: flex;
   flex-direction: column;
   box-shadow: 0 6px 20px 0 grey;
