@@ -176,7 +176,7 @@ span{
 
     .sidebar-icon {
       height: 100px;
-      width: 150px;
+      width: auto;
       margin-left: 20px;
     }
 

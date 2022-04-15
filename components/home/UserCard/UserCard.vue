@@ -163,9 +163,9 @@ export default {
 @media only screen and (max-width: 800px) {
   .wrapper {
     min-width: 250px;
-    min-height: 30px;
+    min-height: 400px;
     width: 60%;
-    height: 60%;
+    height: 50%;
     .social-icons {
       justify-content: space-between;
       margin-top: 5px;
