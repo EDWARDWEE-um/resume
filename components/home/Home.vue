@@ -5,13 +5,13 @@
         <img
           v-if="$colorMode.value == 'light'"
           class="app-icon"
-          src="~/assets/icons/common/edward.png"
+          src="~/assets/icons/common/edwardwee.png"
           @click="$router.push('/')"
         />
           <img
           v-if="$colorMode.value == 'dark'"
           class="app-icon"
-          src="~/assets/icons/common/edwarddark.png"
+          src="~/assets/icons/common/edwardweedark.png"
           @click="$router.push('/')"
         />
       </div>
@@ -65,7 +65,7 @@ export default {
 .app-icon {
   width: 10vw;
   height: auto;
-  margin: 1%;
+  margin: 2%;
 }
 .home1 {
   height: 100%;
