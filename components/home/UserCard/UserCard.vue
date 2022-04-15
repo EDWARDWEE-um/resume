@@ -1,26 +1,30 @@
 <template>
-  <div class="card">
-    <div class="upper-card">
-      <img class="avatar" src="@/assets/images/home/edward.png" />
-      <h1>
-        {{ $t("homepage.name") }}
-      </h1>
-      <h3>
-        {{ $t("homepage.role") }}
-      </h3>
+  <div class="wrapper">
+    <div class="top-icons">
+      <i class="fas fa-long-arrow-alt-left"></i>
+      <i class="fas fa-ellipsis-v"></i>
+      <i class="far fa-heart"></i>
     </div>
-    <div class="lower-card">
+
+    <div class="profile">
+      <img src="@/assets/images/home/edward.png" class="thumbnail" />
+      <div class="check"><i class="fas fa-check"></i></div>
+      <h3 class="name">{{ $t("homepage.name") }}</h3>
+      <p class="title">{{ $t("homepage.role") }}</p>
+    </div>
+
+    <div class="social-icons">
       <button class="btn" type="button" @click="github">
-        <img class="icons" src="@/assets/icons/common/github.png" />
+        <img class="icon" src="@/assets/icons/common/github.png" />
       </button>
       <button class="btn" type="button" @click="linkedin">
-        <img class="icons" src="@/assets/icons/common/linkedin.png" />
+        <img class="icon" src="@/assets/icons/common/linkedin.png" />
       </button>
       <button class="btn" type="button" @click="whatsapp">
-        <img class="icons" src="@/assets/icons/common/whatsapp.png" />
+        <img class="icon" src="@/assets/icons/common/whatsapp.png" />
       </button>
       <button class="btn" type="button" @click="gmail">
-        <img class="icons" src="@/assets/icons/common/gmail.png" />
+        <img class="icon" src="@/assets/icons/common/gmail.png" />
       </button>
     </div>
   </div>
@@ -46,140 +50,144 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.card {
-  width: 30vw;
-  height: 65vh;
-  min-width: 50%;
-  min-height: 70%;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 6px 20px 0 grey;
-  border-radius: 25px;
-  border: none;
-  background: var(--bg);
-  .upper-card {
-    flex-grow: 5;
-    background-color: var(--bg-secondary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    .avatar {
-      width: 20vw;
-      height: 20vw;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 5%;
-    }
-    h1 {
-      text-align: center;
-      font-variant: bold;
-      font-weight: 700;
-      font-size: 3vw;
-      letter-spacing: 0.82px;
-      margin-top: 5%;
-      color: var(--color-primary-text);
-    }
-    h3 {
-      text-align: center;
-      font-size: 2vw;
-      letter-spacing: 0.82px;
-      color: var(--color-primary-text);
-    }
-  }
-  .lower-card {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.wrapper {
+  width: 40%;
+  height: 60%;
+  min-width: 300px;
+  min-height: 500px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 8px 40px rgba(#000000, 0.2);
+  background: var(--bg-secondary);
 
-    .icons {
-      width: 3vw;
-      height: 3vw;
+  .top-icons {
+    i {
+      color: #080911;
+      &:nth-of-type(1) {
+        float: left;
+      }
+      &:nth-of-type(2) {
+        float: right;
+      }
+      &:nth-of-type(3) {
+        float: right;
+        padding-right: 0.8em;
+      }
     }
   }
-}
-@media only screen and (max-width: 1024px) and (orientation: portrait) {
-  .card {
-    height: 35vh;
+  .profile {
+    margin-top: 2.2em;
+    position: relative;
+
+    &:after {
+      width: 100%;
+      height: 1px;
+      content: " ";
+      display: block;
+      margin-top: 1.3em;
+      background: #e9eff6;
+    }
+
+    .check {
+      position: absolute;
+      right: 5em;
+      bottom: 12.7em;
+    }
+    .thumbnail {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1.5em;
+      border-radius: 100%;
+      object-fit: cover;
+    }
+    .name {
+      color: var(--color-primary-text);
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .title {
+      color: var(--color-secondary-text);
+      font-size: 0.75em;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 0.5em;
+      padding-bottom: 0.7em;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .description {
+      color: #080911;
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 1.3em;
+    }
+
+    .btn {
+      color: #fff;
+      width: 130px;
+      height: 42px;
+      outline: none;
+      border: none;
+      display: block;
+      cursor: pointer;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 70px;
+      box-shadow: 0 13px 26px rgba(#000, 0.16), 0 3px 6px rgba(#000, 0.16);
+    }
   }
-}
-@media only screen and (max-width: 800px) {
-  .card {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .card {
-    width: 70vw;
-    height: 60vh;
+
+  .social-icons {
     display: flex;
-    flex-direction: column;
-    box-shadow: 0 6px 20px 0 grey;
-    border-radius: 25px;
-    border: none;
-    margin-top: 10%;
-    .upper-card {
-      flex-grow: 5;
+    margin-top: 1.2em;
+    justify-content: space-between;
+
+    .icon {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
-      border-radius: 25px;
-      .avatar {
-        margin-top: 5%;
-        width: 40vw;
-        height: 40vw;
-        border-radius: 50%;
-      }
-      h1 {
-        font-size: 9vw;
-      }
-      h3 {
-        font-size: 6vw;
-      }
-    }
-    .lower-card {
-      flex-grow: 2;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      .icons {
-        width: 6vw;
-        height: 6vw;
-      }
-    }
-  }
-  @media only screen and (orientation: landscape) {
-    .card {
-      width: 60vw;
-      height: 75vw;
-      margin-top: 50%;
-      .upper-card {
-        flex-grow: 5;
-        .avatar {
-          margin-top: 5%;
-          width: 30vw;
-          height: 30vw;
-        }
-        h1 {
-          font-size: 6vw;
-        }
-        h3 {
-          font-size: 4vw;
-        }
-      }
-      .lower-card {
-        flex-grow: 3;
-      }
+      flex-direction: column;
+      width: 40px;
+      height: 40px;
     }
   }
 }
-@media only screen and (max-width: 320px) and (orientation: landscape) {
-  .card {
-    height: 40vh;
-    margin-top: 0%;
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    min-width: 250px;
+    min-height: 30px;
+    width: 60%;
+    height: 60%;
+    .social-icons {
+      justify-content: space-between;
+      margin-top: 5px;
+      .icon {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .profile {
+      margin-top: 10px;
+      position: relative;
+      .thumbnail {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5em;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+    }
   }
 }
 </style>
