@@ -51,10 +51,8 @@ export default {
 
 <style scoped lang="scss">
 .wrapper {
-  width: 40%;
-  height: 60%;
-  min-width: 300px;
-  min-height: 500px;
+  width: 300px;
+  height: 500px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
   box-shadow: 0 8px 40px rgba(#000000, 0.2);
@@ -112,7 +110,7 @@ export default {
 
     .title {
       color: var(--color-secondary-text);
-      font-size: 0.75em;
+      font-size: 14px;
       font-weight: 300;
       text-align: center;
       padding-top: 0.5em;

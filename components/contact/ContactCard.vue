@@ -26,8 +26,8 @@ export default {
 
 <style scoped lang="scss">
 .card {
-  width: 20%;
-  height: 35vh;
+  width: 300px;
+  height: 400px;
   border: none;
   background: var(--bg);
   cursor: pointer;
@@ -47,7 +47,7 @@ export default {
     text-align: center;
     font-variant: bold;
     font-weight: 700;
-    font-size: 1.2vw;
+    font-size: 15px;
     letter-spacing: 0.82px;
     margin-top: 6%;
     color: var(--color-primary-text);

@@ -100,6 +100,7 @@ ul.timeline {
   list-style-type: none;
   position: relative;
   padding-left: 2.5rem;
+  padding-bottom: 2.5rem;
   
 }
 

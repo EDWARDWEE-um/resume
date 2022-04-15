@@ -2,7 +2,7 @@
   <div class="layout-container">
     <NavBar />
     <Nuxt />
-    <Footer />
+    <Footer style=""/>
   </div>
 </template>
 
@@ -45,5 +45,9 @@ export default {
   position: relative;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 </style>

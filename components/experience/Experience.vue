@@ -49,7 +49,7 @@ export default {};
 h1 {
   font-variant: bold;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 45px;
   letter-spacing: 0.82px;
   color: var(--color-primary-text);
 }
@@ -58,8 +58,9 @@ h1 {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 80vh;
+  height: auto;
   margin-top: 5%;
+  padding-bottom:100px;
   .education-container {
     text-align: right;
     width: 40vw;
@@ -71,7 +72,7 @@ h1 {
     margin-left: 2%;
   }
   .vertical-line {
-    height: 70vh;
+    height: 700px;
     border-left: 2px solid grey;
   }
 }

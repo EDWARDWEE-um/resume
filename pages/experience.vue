@@ -38,16 +38,9 @@ export default {};
   transform: translateY(100%);
 }
 
-div.experience-page-container {
-  height: 100%;
-}
 
-@media only screen and (max-width: 768px) {
-  div.experience-page-container {
-    .section {
-    }
-  }
-}
+
+
 </style>
 
 

@@ -22,8 +22,8 @@ export default {
 
 <style scoped lang="scss">
 .card {
-  width: 25vw;
-  height: 30vh;
+  width: 250px;
+  height: 300px;
   border: none;
   background: var(--bg);
   .card-img-top {
@@ -34,12 +34,6 @@ export default {
   h5 {
     text-align: center;
     color:var(--color-primary-text);
-  }
-}
-@media only screen and (max-width: 768px) {
-  .card {
-    width: 60vw;
-    height: 30vh;
   }
 }
 </style>

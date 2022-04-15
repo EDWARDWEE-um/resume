@@ -38,7 +38,7 @@ div.about-PIF {
     margin-top: 2%;
     font-variant: bold;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 65px;
     line-height: 67px;
     letter-spacing: 0.82px;
     text-align: center;
@@ -51,7 +51,7 @@ div.about-PIF {
   p {
     color: var(--color-subtitle-text);
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 30px;
   }
   .line {
     width: 50%;

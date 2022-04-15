@@ -31,7 +31,7 @@ export default {
   h1 {
     font-variant: bold;
     font-weight: 700;
-    font-size: 1.4vw;
+    font-size: 24px;
     letter-spacing: 0.82px;
     margin-top: 2%;
     color: var(--color-primary-text);
@@ -40,14 +40,14 @@ export default {
   h2 {
     font-variant: bold;
     font-weight: 600;
-    font-size: 1.4vw;
+    font-size: 24px;
     letter-spacing: 0.82px;
     margin-top: 2%;
     color: var(--color-primary-text);
 
   }
   p {
-    font-size: 1vw;
+    font-size: 15px;
     line-height: 32px;
     letter-spacing: 0.21px;
     margin-top: 2%;

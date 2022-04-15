@@ -1,5 +1,6 @@
 <template>
-  <div class="experience-container">
+  <div class="contact-container">
+    <div class="contact-container-two">
     <CuContactCard
       :icon="require('@/assets/icons/common/gmail.png')"
       :description="this.$t('contact_page.contact_1_description')"
@@ -20,6 +21,7 @@
       :description="this.$t('contact_page.contact_4_description')"
       :func="github"
     />
+    </div>
   </div>
 </template>
 
@@ -43,20 +45,27 @@ methods: {
 </script>
 
 <style scoped lang="scss">
-.experience-container {
+.contact-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: flex-start;
   margin-top: 2%;
+  min-height: 52vh;
+  .contact-container-two{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+    width: 1200px;
+  }
 }
 @media only screen and (max-width: 768px) {
-  .experience-container {
+  .contact-container {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-
+    min-height: 100vh;
     .education-container {
       text-align: center;
       width: 40vw;

@@ -146,19 +146,19 @@ li.timeline-item::before {
 h1 {
   font-variant: bold;
   font-weight: 700;
-  font-size: 1.4vw;
+  font-size: 30px;
   letter-spacing: 0.82px;
   color: var(--color-primary-text);
 }
 h2 {
   font-variant: bold;
   font-weight: 600;
-  font-size: 1.4vw;
+  font-size: 24px;
   letter-spacing: 0.82px;
   color: var(--color-primary-text);
 }
 p {
-  font-size: 1vw;
+  font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.21px;
   color: var(--color-primary-text);

@@ -25,14 +25,14 @@ export default {
 
 <style scoped lang="scss">
 .jumbotron {
-  width: 30vw;
-  height: 60vh;
+  width: 400px;
+  height: 600px;
   margin-left: 3%;
   margin-top: 1%;
   h1.title {
     font-variant: bold;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 65px;
     letter-spacing: 0.82px;
     margin-bottom: 5%;
       color: var(--color-primary-text);
@@ -45,14 +45,14 @@ export default {
   h1.subtitle {
     font-variant: bold;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 45px;
     letter-spacing: 0.82px;
       color: var(--color-primary-text);
 
   }
   p {
     text-align: justify;
-    font-size: 1vw;
+    font-size: 14px;
     line-height: 32px;
     letter-spacing: 0.21px;
       color: var(--color-primary-text);
@@ -83,7 +83,7 @@ export default {
     }
     p {
       text-align: justify;
-      font-size: 3.8vw;
+      font-size: 14px;
     }
     .lead {
       display: flex;

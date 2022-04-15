@@ -1,5 +1,5 @@
 <template>
-  <div class="experience-page-container">
+  <div class="contact-page-container">
     <Transition name="top" appear>
       <CoTitle
         class="section"
@@ -41,8 +41,7 @@ export default {};
   transform: translateY(100%);
 }
 
-div.experience-page-container {
-  height: 80vh;
+div.contact-page-container {
   background: var(--bg);
   .section {
   }

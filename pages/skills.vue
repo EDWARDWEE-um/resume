@@ -11,7 +11,7 @@
     <Transition name="bottom" appear>
       <SkSkillsList />
     </Transition>
-    <!-- ADD BLOBS HERE -->
+    <!-- ADD BOOBS HERE --> 
   </div>
 </template>
 
@@ -40,14 +40,8 @@ export default {};
 }
 
 div.experience-page-container {
-  height: 100%;
+ 
   background: var(--bg);
-  .section {
-  }
-
-  @media only screen and (max-width: 768px) {
-    .section {
-    }
-  }
+ 
 }
 </style>
