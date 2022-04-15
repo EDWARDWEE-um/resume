@@ -19,13 +19,13 @@
                 <img
                  v-if="$colorMode.value == 'light'"
                   class="sidebar-icon"
-                  src="~/assets/icons/common/edward.png"
+                  src="~/assets/icons/common/edwardwee.png"
                   @click="$router.push('/')"
                 />
                   <img
                  v-if="$colorMode.value == 'dark'"
                   class="sidebar-icon"
-                  src="~/assets/icons/common/edwarddark.png"
+                  src="~/assets/icons/common/edwardweedark.png"
                   @click="$router.push('/')"
                 />
 
