@@ -55,10 +55,10 @@ export default {
 }
 @media only screen and (max-width: 768px) {
   .card {
-    width: 60vw;
-    height: 30vh;
+    width: 200px;
+    height: 250px;
     h5 {
-      font-size: 4vw;
+      font-size: 20px;
     }
   }
 }

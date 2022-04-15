@@ -68,7 +68,7 @@ export default {
   margin: 2%;
 }
 .home1 {
-  height: 100%;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ export default {
     flex-grow: 9;
     justify-content: center;
     background: linear-gradient(to left, var(--bg) 60%, var(--bg-secondary) 0%);
-    height: 80vh;
+    height: 75vh;
     .home-card {
       margin-top: 4%;
       display: flex;
