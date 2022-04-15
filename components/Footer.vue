@@ -90,7 +90,7 @@ p {
 .footer-container {
   background: var(--bg-footer);
   max-width: 100%;
-  height: auto;
+  height: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +99,7 @@ p {
     flex-direction: row;
     justify-content: center;
     .logo {
-      width: 12vw;
+      width: 40px;
       height: auto;
     }
     .footer-contacts {
@@ -129,9 +129,6 @@ p {
       }
     }
   }
-}
-
-@media only screen and (max-width: 1024px) {
 }
 
 @media only screen and (max-width: 768px) {

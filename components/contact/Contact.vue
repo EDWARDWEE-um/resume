@@ -66,6 +66,12 @@ methods: {
     justify-content: flex-start;
     align-content: center;
     min-height: 100vh;
+      .contact-container-two{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    width: auto;
+  }
     .education-container {
       text-align: center;
       width: 40vw;
