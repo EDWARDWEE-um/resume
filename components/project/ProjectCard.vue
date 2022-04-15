@@ -1,19 +1,19 @@
 <template>
   <li class="timeline-item rounded ml-3 p-4 shadow">
-    <div data-aos="fade-right" class="timeline-arrow" ></div>
+    <div data-aos="fade-right" class="timeline-arrow"></div>
     <div data-aos="fade-down-right">
       <h1>{{ title }}</h1>
       <h2>{{ start_date }} - {{ end_date }}</h2>
       <div v-if="category">
-        <h2>{{$t('projects_page.category')}} : {{ category }}</h2>
+        <h2>{{ $t("projects_page.category") }} : {{ category }}</h2>
       </div>
       <div v-if="status">
-        <h2>{{$t('projects_page.status')}} : {{ status }}</h2>
+        <h2>{{ $t("projects_page.status") }} : {{ status }}</h2>
       </div>
       <div data-aos="flip-up" v-if="image_1">
         <img class="project-image" :src="image_1" />
       </div>
-       <div data-aos="flip-down" v-if="image_2">
+      <div data-aos="flip-down" v-if="image_2">
         <img class="project-image" :src="image_2" />
       </div>
       <div class="embed-container" v-if="youtube_url">
@@ -30,7 +30,12 @@
         {{ description }}
       </p>
       <div v-if="link_url">
-        <p>{{$t('projects_page.link')}}: <a :href="link_url" target="_blank"> {{$t('projects_page.click_here')}} </a></p>
+        <p>
+          {{ $t("projects_page.link") }}:
+          <a :href="link_url" target="_blank">
+            {{ $t("projects_page.click_here") }}
+          </a>
+        </p>
       </div>
     </div>
   </li>
@@ -85,8 +90,11 @@ export default {
 
 <style scoped lang="scss">
 img.project-image {
-  width: 100%;
-  height: 50vh;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   margin-bottom: 5%;
 }
 .embed-container {
@@ -140,23 +148,20 @@ h1 {
   font-weight: 700;
   font-size: 1.4vw;
   letter-spacing: 0.82px;
-        color: var(--color-primary-text);
-
+  color: var(--color-primary-text);
 }
 h2 {
   font-variant: bold;
   font-weight: 600;
   font-size: 1.4vw;
   letter-spacing: 0.82px;
-        color: var(--color-primary-text);
-
+  color: var(--color-primary-text);
 }
 p {
   font-size: 1vw;
   line-height: 20px;
   letter-spacing: 0.21px;
-        color: var(--color-primary-text);
-
+  color: var(--color-primary-text);
 }
 @media only screen and (max-width: 768px) {
   img.project-image {
