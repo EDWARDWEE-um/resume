@@ -8,7 +8,7 @@
     <p>
       {{ $t("homepage.description") }}
     </p>
-      <a class="btn" href="./Wee Chee Shen CV.pdf" download> Resume </a>
+      <a class="btn" href="./Wee Chee Shen CV.pdf" download> {{ $t("homepage.resume") }} </a>
   </div>
 </template>
 
@@ -75,12 +75,14 @@ export default {
   .jumbotron {
     width: 70vw;
     height: 60vh;
+    padding-bottom: 100px;
+
     margin-left: 3%;
     margin-top: 1%;
     h1.title {
       font-variant: bold;
       font-weight: 700;
-      font-size: 10vw;
+      font-size: 35px;
       letter-spacing: 0.82px;
       margin-bottom: 1%;
       margin-top: 4%;
@@ -89,7 +91,7 @@ export default {
     h1.subtitle {
       font-variant: bold;
       font-weight: 500;
-      font-size: 7vw;
+      font-size: 20px;
       letter-spacing: 0.82px;
       text-align: center;
     }
@@ -104,12 +106,5 @@ export default {
     }
   }
 }
-@media only screen and (max-width: 320px) {
-  .jumbotron {
-    p {
-      text-align: justify;
-      font-size: 3vw;
-    }
-  }
-}
+
 </style>

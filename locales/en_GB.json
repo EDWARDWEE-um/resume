@@ -6,8 +6,7 @@
         "greeting": "Greetings",
         "about_me": "About Me",
         "description": "I am an aspiring software engineer who has experience of developing mobile and web applications. I am currently in my final year of studies for a Bachelor in Computer Science majoring in computer systems and networking at University of Malaya and are looking for career opportunities.",
-        "experience": "Experiences",
-        "projects": "Projects"
+        "resume": "Resume"
     },
     "experience_page": {
         "title_1": "EXPERI",

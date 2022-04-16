@@ -10,40 +10,40 @@
         "projects": "Projek"
     },
     "experience_page": {
-        "title_1": "EXPERI",
-        "title_2": "ENCES",
-        "subtitle": "PROFESSIONAL AND ACADEMIC",
-        "education": "Education",
-        "professional": "Professional",
+        "title_1": "PENGA",
+        "title_2": "LAMAN",
+        "subtitle": "PROFESIONAL AND AKADEMIK",
+        "education": "Pendidikan",
+        "professional": "Profesional",
         "education_1": {
             "date": "2012-2016",
             "experience": "Sijil Pelajaran Malaysia (SPM)",
-            "description": "Studied Pure Science with straight A's ( 2A+ , 6A , 1A-) "
+            "description": "Telah mencapai 9A's ( 2A+ , 6A , 1A-) dalam SPM aliran sains tulen."
         },
         "education_2": {
             "date": "2017-2018",
             "experience": "Sijil Tinggi Persekolahan Malaysia (STPM)",
-            "description": "Studied Pure Science with a CGPA of 3.83 ( 3A , 1B+ )"
+            "description": "Telah mencapai CGPA 3.83 ( 3A , 1B+ ) dalam STPM aliran sains tulen."
         },
         "education_3": {
-            "date": "From September 2019",
-            "experience": "Bachelor of Computer Science at UM",
-            "description": "Specialised in Computer Systems and Networking in University of Malaya with a CGPA of 3.96"
+            "date": "Dari September 2019",
+            "experience": "Ijazah Sarjana Muda Sains Komputer di UM",
+            "description": "Khusus dalam Sistem dan Rangkaian Komputer di University Malaya dengan pencapaian CGPA 3.96"
         },
         "professional_1": {
             "date": "March 2021 - March 2022",
             "experience": "Digital Resilience SBX (DRSBX)",
-            "description": "Our team consisted of 6 people have taken a task from University of New South Wales to develop a security assessment web application. I am a backend engineer for this project."
+            "description": "Pasukan kami terdiri daripada 6 orang telah mengambil tugas daripada Universiti New South Wales untuk membangunkan aplikasi web penilaian keselamatan. Saya bertanggungjawab sebagai seorang backend developer dalam projek ini."
         },
         "professional_2": {
             "date": "July 2021 - January 2022",
-            "experience": "Cognixus Technologies - Software Engineer Intern",
-            "description": "Carried out industrial training as a software engineer. Learned how to design and develop scalable mobile and web application. Learned how to develop backend of an application and Docker."
+            "experience": "Cognixus Technologies - Jurutera Perisian Pelatih",
+            "description": "Menjalankan latihan industri sebagai jurutera perisian. Mempelajari cara mereka bentuk dan membangunkan aplikasi mudah alih dan web yang boleh skala. Mempelajari cara membangunkan bahagian belakang aplikasi dan Docker."
         },
         "professional_3": {
             "date": "March 2022 - Present",
             "experience": "Employee Performance Review System (FYP)",
-            "description": "Collaborated with Cognixus Technologies to develop a performance review plugin for the existing Hexfere HRMS system."
+            "description": "Bekerjasama dengan Cognixus Technologies untuk membangunkan pemalam semakan prestasi untuk sistem HRMS Hexfere sedia ada."
         }
     },
     "contact_page": {

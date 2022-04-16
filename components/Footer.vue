@@ -88,7 +88,7 @@ p {
 }
 
 .footer-container {
-  background: var(--bg-footer);
+  background: var(--bg-secondary);
   max-width: 100%;
   height: 15%;
   display: flex;

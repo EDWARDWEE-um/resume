@@ -53,7 +53,6 @@ export default {
   margin: 2%;
 }
 .home1 {
-  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -61,16 +60,15 @@ export default {
   padding-top: 120px;
 
   .home-top {
-    flex-grow: 1;
     background: white;
     margin-top: 5%;
   }
   .home-card-background {
     display: flex;
-    flex-grow: 9;
     justify-content: center;
+    min-height: 80vh;
+    height: auto;
     background: linear-gradient(to left, var(--bg) 60%, var(--bg-secondary) 0%);
-    height: 75vh;
     .home-card {
       margin-top: 4%;
       display: flex;
@@ -100,9 +98,9 @@ export default {
 @media only screen and (max-width: 768px) {
   .home1 {
     padding-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
+    height: auto;
     .home-card-background {
-      height: 100%;
       display: flex;
       justify-content: center;
       flex-direction: column;
