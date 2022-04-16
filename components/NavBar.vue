@@ -180,6 +180,7 @@ export default {
     ...mapGetters({
       scrollTop: "common/getScrollTop",
       isMobile: "common/getIsMobile",
+      isTablet: "common/getIsTablet",
     }),
     currentRoute() {
       return this.$route.path;
