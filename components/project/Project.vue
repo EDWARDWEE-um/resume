@@ -96,20 +96,42 @@
           />
         </ul>
       </div>
-      <button @click="scrollToTop">a</button>
+      <button
+        :class="checkScroll"
+        @click="scrollToTop()"
+        id="myBtn"
+        title="Go to top"
+      >
+        Top
+      </button>
     </div>
   </div>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+var mybutton = document.getElementById("myBtn");
 export default {
   methods: {
     scrollToTop() {
       window.scrollTo(0, 0);
     },
-    scrollFunction(){
-      if()
-    }
+    checkScroll() {
+      window.addEventListener("scroll", (event) => {
+        let scroll = this.scrollY;
+        console.log(scrollTop);
+        if (scroll > 10) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      });
+    },
+  },
+  computed: {
+    ...mapGetters({
+      scrollTop: "common/getScrollTop",
+    }),
   },
 };
 </script>
@@ -133,5 +155,25 @@ ul.timeline:before {
   height: 100%;
   z-index: 400;
   border-radius: 1rem;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 </style>
