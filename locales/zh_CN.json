@@ -1,378 +1,171 @@
 {
     "language": "简体中文",
-    "about": {
-        "about_PayItForward_desc": "受电影《让爱传出去》（2000）的启发，PIF致力于建立一个全球性的社区。在这里每个人都可以通过支持和传播有价值的事业来传递爱与善意。我们的核心价值是希望利用社交媒体的力量和积极性，让爱传出去。",
-        "about_pif_desc": "Pay It Forward（PIF）于2020年在新加坡成立，是一款创新型社交商务app，旨在通过分享和传递爱心的精神创造更好的社区。",
-        "about_pif_span": "PIF",
-        "about_pif_title": "关于",
-        "aim_desc_1": "在PIF，传播善意、爱心和热爱慈善的志同道合的用户们，可以在这里分享他们的想法，以此来鼓励他人加入到传播爱和善意的的行动中来。",
-        "aim_desc_2": "PIF通过连接附近或世界各地的捐赠者和受益者，让人们都可以轻松分享食物或各种其他生活物品。",
-        "aim_span": "爱",
-        "aim_title": "我们的主要目标是鼓励每个人都传播",
-        "visionNmission_mission": "提供一流的共享社交商务体验来推动公益的发展，以及爱和善意的涌动。希望参与者能够在这里进行互动、交流和共同行动，一起帮助贫困和弱势群体。",
-        "visionNmission_sub_title_1": "愿景",
-        "visionNmission_sub_title_2": "使命",
-        "visionNmission_title_1": "我们的愿景 ",
-        "visionNmission_title_2": "& 使命",
-        "visionNmission_vision": "建立一个全球性社区，在这里每个人都可以通过资助有价值的事业来创建一个积极正面的社会，并传播爱与善意。"
-    },
-    "about_us": "关于我们",
-    "chinese": "简体中文",
-    "contact": {
-        "contact_title": "保持联系",
-        "email_address": "电子邮箱",
-        "field_required_1": "",
-        "field_required_2": "必填",
-        "first_name": "姓氏",
-        "last_name": "名字",
-        "message": "留言",
-        "message_sent": "您的留言已成功提交。我们将在几天内回复您。",
-        "mobile_number": "手机号码",
-        "placeholder": {
-            "email_address": "您的电子邮箱",
-            "first_name": "您的姓氏",
-            "last_name": "您的名字",
-            "message": "提出您的问题...",
-            "mobile_number": "您的手机号码"
-        },
-        "submit": "提交"
-    },
-    "contact_us": "联系方式",
-    "english": "English",
-    "faq": "常见问题",
-    "faq_page": {
-        "categories": {
-            "fundraiser": "筹款者",
-            "general": "一般询问",
-            "giver": "捐赠者",
-            "ngo": "NGO/ NPO",
-            "requestor": "请求者",
-            "safety": "信任与安全"
-        },
-        "questions": {
-            "fundraiser": [],
-            "general": {
-                "12": {
-                    "answer": "我们希望在 Pay It Forward (PIF) App 中的用户都为真实用户， 填写手机号有助于防止用户恶意注册软件。",
-                    "question": "我正在注册 Pay It Forward (PIF) 用户。 为什么注册时必须要填写手机号码呢？"
-                },
-                "13": {
-                    "answer": "感谢您对PIF内容的关注。PIF 是一个供用户创建内容的社交平台，虽然我们为保证内容质量建立了内容过滤器，但可能仍有一些遗漏。如果您遇到此类不当内容，可以通过点击帖子右上角的 < 三个点图标> ，点击举报。我们的将尽快处理。",
-                    "question": "我看到了具有冒犯性或内容不适的 \"PIF\" 物品或帖子， 该怎么办？ "
-                },
-                "14": {
-                    "answer": "不， 付出和接受都不是强制性的。 您可以是捐赠者、 受益者、 也可以单纯在这里分享您的积极乐观的生活。在 PIF 里， 我们鼓励用户在您从他人那里拿走东西后能把善意传递出去。 您可以在将来赠送另一件物品， 也可以现在在您的社交帖子上分享一些正能量的帖子: )",
-                    "question": "接受别人捐赠的同时，我是否必须赠予别人？"
-                },
-                "15": {
-                    "answer": "进入<用户资料>，点击<编辑个人主页>，更新您的信息，最后到<更新资料>进行保存",
-                    "question": "如何更改我的用户资料"
-                },
-                "16": {
-                    "answer": "点击他人头像即可查看他人资料",
-                    "question": "怎么查看别人的资料 "
-                },
-                "17": {
-                    "answer": "1. 点击 < 聊天按钮 > 上的 < + > 号， 选择用户即可和他展开对话 \n2. 点击PIF 帖子下的 < 聊天按钮 > 即可和他展开对话 ",
-                    "question": "我该怎么和他人展开聊天"
-                },
-                "18": {
-                    "answer": "进入<用户资料>，点击<设置>图标，点击<语言>一栏，选择您想要的语言。",
-                    "question": "我该怎么更改默认语言"
-                },
-                "19": {
-                    "answer": "进入<用户资料>，点击<关注>按钮即可",
-                    "question": "我该怎么关注他人"
-                },
-                "20": {
-                    "answer": "进入<用户资料>，点击<我的关注>即可",
-                    "question": "我该怎么查看我关注了哪些人"
-                },
-                "21": {
-                    "answer": "进入<用户资料>，点击<我的粉丝>即可",
-                    "question": "我该怎么查看哪些人关注我了"
-                },
-                "22": {
-                    "answer": "您可以直接@他，使用@符号加上他的用户名即可",
-                    "question": "怎样在我的帖子或评论中提到其他人"
-                },
-                "23": {
-                    "answer": "话题标签是可点击的。 使用“#”后，加上字母、数字或表情符号的组合生成话题标签。 使用话题标签更容易让您的帖子被发现。",
-                    "question": "带有这个符号 # 的帖子是什么"
-                },
-                "24": {
-                    "answer": "话题标签帖子不支持搜索。您可点击话题标签即可查看具有相同话题标签的其他帖子",
-                    "question": "如何搜索带#的话题标签帖子"
-                },
-                "25": {
-                    "answer": "点击帖子下方的<分享图标>，选择您想分享的应用即可，您也可以直接复制链接并手动粘贴到其他应用",
-                    "question": "我如何与不是 Pay It Foward 用户的朋友分享我喜欢的帖子？"
-                },
-                "26": {
-                    "answer": "点击主页左上角的<通知图标>即可",
-                    "question": "在哪里可以找到我的通知列表"
-                },
-                "27": {
-                    "answer": "因视频大小不同，视频上传需一定时间同步到页面。 请稍后再试。",
-                    "question": "为什么我刚刚发布的视频显示\"播放器错误\"？"
-                },
-                "28": {
-                    "answer": "您可以通过下拉屏幕刷新帖子列表。",
-                    "question": "如何刷新帖子列表？"
-                },
-                "29": {
-                    "answer": "您可以通过发送电子邮件至 ticket@payitforward.io 联系我们的支持人员来完成此操作。",
-                    "question": "如何取消订阅来自 PIF 的电子邮件？"
-                }
-            },
-            "giver": {
-                "2": {
-                    "answer": "非常感谢您的付出，我们相信物品的再利用可以减少对地球的自然资源的压力。如果您希望为您的物品收取一些费用，您可以通过自己的安排向请求者要求。",
-                    "question": "我正在创建一个\"PIF\"，可以要求请求者支付一些费用吗？"
-                },
-                "3": {
-                    "answer": "选择要结束的\"PIF\"，点击\"结束PIF\"",
-                    "question": "如何结束我所创建的 \" PIF\""
-                },
-                "4": {
-                    "answer": "选择您创建的\"PIF\"，点击 < xx 请求图标 > ，选择用户。 点击\"通过\"",
-                    "question": "如何通过请求？"
-                },
-                "5": {
-                    "answer": "1. 历史记录 - 选择您创建的\"PIF\"点击 < xx 请求图标 >, 点击请求者的头像可查看过去 30 天的请求历史记录\n2.聊天 - 点击请求者姓名旁边的 < 聊天 图标 > ，与他们聊天。\n3.单击用户名。 这将转到用户个人资料， 您可以在其中查看请求者的帖子和对方所创建的 \"PIF\"",
-                    "question": "怎样了解我的请求者？"
-                },
-                "6": {
-                    "answer": "\n1.禁止发布违禁品\n2.禁止为同一物品创建多个\"PIF\"帖子。\n3.确保您的物品在正确的类别中。\n4.物品图片必须准确。\n5.禁止使用具攻击性的标题。\n6.禁止抄袭， 盗用他人内容。",
-                    "question": "\"PIF\"的发布规则 "
-                },
-                "7": {
-                    "answer": "\n1.过期食品\n2.非法物品（ 以当地法律为准）\n3.动物 / 宠物 ",
-                    "question": "违禁品定义"
-                },
-                "9": {
-                    "answer": "您可以在您的个人资料页面进行查看",
-                    "question": "怎样查看您发起的所有\"PIF\"?"
-                },
-                "10": {
-                    "answer": "选择您创建的\"PIF\"，点击 < xx请求图标 > ，点击\"已通过\"， 选择多个或所有用户， 然后选择\"导出\"即可。",
-                    "question": "怎样导出我的\"PIF\"报告?"
-                },
-                "11": {
-                    "answer": "选择您创建的\"PIF\"， 点击 < 三个点图标 > ，选择“ 编辑”， 编辑您的信息， 然后单击“ 立即分享” 即可。 ",
-                    "question": "怎样编辑我所创建的\"PIF\"？"
-                }
-            },
-            "ngo": [],
-            "requestor": {
-                "30": {
-                    "answer": "爱心图标供您收藏您喜爱的物品，以便您稍后在“我的列表”中找到它们,并发出请求",
-                    "question": "\"PIF\" 列表上的爱心标识是什么?"
-                },
-                "31": {
-                    "answer": "在 Pay It Forward  选项卡中，选择任何适用的帖子并点击\"请求\"即可。",
-                    "question": "如何对物品提出请求"
-                },
-                "32": {
-                    "answer": "在 Pay It Forward  选项卡中，选择\"我的列表\"即可",
-                    "question": "如何查看您发送的所有请求？"
-                },
-                "33": {
-                    "answer": "点击 <筛选 图标>缩小搜索范围。",
-                    "question": "列表上有太多我不需要的物品该怎么办？"
-                },
-                "34": {
-                    "answer": "一旦捐赠者通过您的请求或结束PIF，您将收到通知。",
-                    "question": "我如何知道我的请求是否通过？"
-                },
-                "35": {
-                    "answer": "在您提出请求该物品之前， 请检查该发布的物品是要求自取还是邮寄。\n1.自取： 您需要根据指定的地址自行取件。\n2.邮寄： 捐赠者会将物品邮寄给您。",
-                    "question": "如何领取已通过的物品？"
-                },
-                "36": {
-                    "answer": "您在每个\"PIF\"中只能提出 1 个物品的请求， 而您可以请求的“PIF”数量则没有限制。 但是，我们鼓励用户仅根据您的需要提出请求。 一旦捐赠者通过了您的请求，您的请求历史记录中就会显示一条记录。",
-                    "question": "我可以申请多少件物品？ 有限制吗？"
-                },
-                "37": {
-                    "answer": "没有请求按钮的\"PIF\"允许请求者直接领取 ",
-                    "question": "为什么一些\"PIF\"的帖子没有请求按钮？ "
-                },
-                "38": {
-                    "answer": "列表仅展示距离您50公里以内可选择物品，若您无可选物品，则可能您的位置超出物品可选择区域。",
-                    "question": "为什么我在列表中没有看见任何可选择物品"
-                },
-                "39": {
-                    "answer": "您可以进行举报。 点击帖子右上角的 <三个点图标>， 点击举报 。 我们将尽快处理。",
-                    "question": "当看到在\"PIF\"中有不恰当的物品时， 我能做什么？ "
-                },
-                "40": {
-                    "answer": "点击帖子下方的<分享图标>，选择您想分享的应用即可，或者您也可以直接复制链接并手动粘贴到其他应用",
-                    "question": "如何对内容进行分享"
-                },
-                "41": {
-                    "answer": "您可以通过下拉屏幕刷新帖子列表。",
-                    "question": "如何刷新\"PIF\"列表？ "
-                },
-                "42": {
-                    "answer": "在 Pay It Forward 选项卡中， 选择您请求的帖子， 然后点击“ 取消请求”。一旦捐赠者通过了您的请求， 您将无法取消请求。.",
-                    "question": "如何取消我的请求？"
-                }
-            },
-            "safety": []
-        },
-        "title": "有任何问题吗？"
-    },
-    "footer": {
-        "about": "关于我们",
-        "add_1": "61 Ubi Ave 2, #06-06 AML, ",
-        "add_2": "Singapore 408898",
-        "company": "公司",
-        "contact": "联系方式",
-        "credit": "© 2021 Pay It Forward. All rights reserved.",
-        "faq": "常见问题",
-        "get": "联系方式",
-        "home": "首页",
-        "info": "资讯",
-        "privacy": "隐私政策",
-        "terms": "使用条款"
-    },
-    "home": "首页",
     "homepage": {
-        "home_1_desc": "通过分享及传递爱心的精神，共同建设更好的社区。",
-        "home_1_span": "爱心传递",
-        "home_1_title_1": "加入",
-        "home_1_title_2": "行动",
-        "home_2_card_1_desc_1": "共同传播",
-        "home_2_card_1_desc_2": "爱和善意",
-        "home_2_card_2_desc_1": "一起探索及发掘更",
-        "home_2_card_2_desc_2": "友好的社会环境",
-        "home_2_card_3_desc_1": "提高人们对社会",
-        "home_2_card_3_desc_2": "需求的认识",
-        "home_2_card_4_desc_1": "允许用户放心",
-        "home_2_card_4_desc_2": "地分享事物",
-        "home_2_card_5_desc_1": "提供食物或",
-        "home_2_card_5_desc_2": "生活用品",
-        "home_2_desc": "与我们一起收获丰富多样的人生体验",
-        "home_2_title": "为什么选择我们？",
-        "home_3_desc_1": "在此，您可以分享文字、图片、视频或其他资源的网址链接，以此分享您的生活、发起一项活动，甚至开启您的事业。",
-        "home_3_desc_2": "您也可以从别人的帖子中看见多样的故事、活动或字句，从中得到启发，并通过@用户名称、点赞或评论与其他用户进行交流。",
-        "home_3_title": "帖子",
-        "home_4_desc_1": "这项功能为物品的捐赠者和受益者提供连接的桥梁，让用户可以获取、跟踪和管理每笔交易。",
-        "home_4_desc_2": "您可以发布想要捐赠的食物或物品的图片及其它信息，同样的，您也可以对其他用户所发布的食物或物品提出请求。",
-        "home_4_title": "杯已付 (Pay It Forward)",
-        "home_5_desc": "我们诚邀您加入我们。",
-        "home_5_title_1": "加入",
-        "home_5_title_2": "爱心传递",
-        "home_5_title_3": "行动"
+        "name": "Edward 黄治升",
+        "role": "软件工程师",
+        "greeting": "您好",
+        "about_me": "关于我",
+        "description": "我是一名软件工程师，拥有创建 Mobile 和 Web App 的经验。我目前正在马来亚大学读计算机科学，主修计算机系统和网络，并正在寻找职业机会。",
+        "resume": "个人简历"
     },
-    "malay": "Malay",
-    "privacy": {
-        "date": "October 29, 2021",
-        "section_1": {
-            "desc_1": "This Personal Data Protection Policy explains the information that Pay It Forward Pte Ltd (“<span class='highlight'>Company</span>”) collects when you access Pay It Forward App, sell products or services, purchase or subscribe to the products and services or receive products and services via Pay It Forward App, how that information is used, with whom it may be shared and your privacy choices when you sell, purchase, subscribe or receive products or services through the application of Pay It Forward (“<span class='highlight'>Pay It Forward App</span >”).",
-            "desc_2": "We take your privacy seriously and we will only collect, record, hold, store, use and/or process your personal data or information as outlined below. We appreciate and thank you for your precious time in going through our Pay It Forward Privacy Notice (“<span class='highlight'>Notice</span>”) for a better user engagement with us.",
-            "desc_3": "The terms governing your use of Pay It Forward App are defined in our Pay It Forward Terms and Conditions.",
-            "list_1": "We strongly believe that data protection is a matter of mutual trust and your privacy is important to us. We shall therefore only process your name and other information which relates to you in the manner set out in this Notice including but not limited to the existing legislation, sub-regulations, policies and/or regulatory guidelines (whichever is applicable).",
-            "list_2": "We will only collect data or information where it is necessary for us to do so and for you to enjoy a safer experience in using Pay It Forward App. We will only collect data or information if it is relevant to our dealings or transactions with you. We will only keep your data or information for as long as we are either required to do so by law or as is relevant for the purposes for which it was collected.",
-            "list_3": "Unless if you are just browsing through the Pay It Forward App, you are unable to choose to remain anonymous and we must be able to identify your personal identity by providing and disclosing your personal data to us during the process of registration with Pay It Forward App, including but not limited to procuring certain identity verification or factors authentication steps to do so.",
-            "list_4": "We are committed to protecting all personal data or information kept by us and providing you with the highest levels of customer service within our capabilities. We therefore set out a number of personal data protection principles concerning the exercise and/or process of your personal data or information.",
-            "list_5": "By registering for, downloading, or using Pay It Forward App, you agree to accept this Notice. We reserve the right to amend, alter or change any portion of this Notice. We will announce such amendments, alterations or changes through Pay It Forward App.",
-            "section_title": "A. INTRODUCTION & BACKGROUND FACTS THAT YOU SHOULD KNOW"
+    "experience_page": {
+        "title_1": "经",
+        "title_2": "验",
+        "subtitle": "专业和学业",
+        "education": "教育",
+        "professional": "专业",
+        "education_1": {
+            "date": "2012 年 - 2016 年",
+            "experience": "Sijil Pelajaran Malaysia (SPM)",
+            "description": "获得全科 A 在纯理科学 ( 2A+ , 6A , 1A- )"
         },
-        "section_2": {
-            "list_6": "We are responsible for monitoring the administration of this Notice and its compliance. The Company does not knowingly collect information of persons who are under the age of majority as per the laws governing the Company.",
-            "list_7": "This Notice is effective upon acceptance of this Notice and prior to submission for registration under the Pay It Forward App. For avoidance of doubt, this Notice is valid and binding upon every user and merchant regardless of whether you have sold, purchased, received or subscribed to or used the services provided or offered under Pay It Forward App directly or indirectly.",
-            "section_title": "B. SCOPE OF THIS NOTICE"
+        "education_2": {
+            "date": "2017 年 - 2018 年",
+            "experience": "Sijil Tinggi Persekolahan Malaysia (STPM)",
+            "description": "获得全科 CGPA 3.83 ( 3A , 1B+ ) 在纯理科学"
         },
-        "section_3": {
-            "list_10": "<span class='highlight'>SECURITY PRINCIPLE</span>",
-            "list_10_1": "The Company is responsible for taking prudent steps to safeguard the confidentiality and security of all Personal Data, including appropriate procedural, organisational and technical steps to protect the Personal Data from accidental or unlawful destruction or accidental loss, alteration or disclosure. These steps include entering into written agreements with subcontractors who process Personal Data in accordance with the Company’s instructions and incorporating the Company’s own data protection standards as a minimum effort.",
-            "list_10_2": "We will place or procure various reasonable security measures to safeguard all Personal Data that has been collected or processed by us within our reasonable and commercial capacity as the internet / online or cloud-based transmission is not a 100% secured medium of communication.",
-            "list_10_3": "The Company ensures that all information collected and processed will be safely and securely stored. We protect your Personal Data by:",
-            "list_10_3_a": "allowing access to Personal Data via passwords; and",
-            "list_10_3_b": "securely destroying your Personal Data when it is no longer needed for our record retention purposes pursuant to this Notice.",
-            "list_10_4": "The Company does not accept responsibility or liability for any unauthorised access, loss, unlawful interceptions, hacking activities, installation or download of prohibited or unwanted software including but not limited to spyware, malware or virus which caused the loss of the Personal Data transmitted to or from Pay It Forward App after performance or procurement of such reasonable security procedures that are within the commercial capacity of Pay It Forward App.",
-            "list_11": "<span class='highlight'>RETENTION PRINCIPLE</span>",
-            "list_11_1": "The Company in executing its responsibilities with respect to the confidentiality of Personal Data, the Company will employ a number of safeguards, appropriate to the sensitivity of the information, to protect Personal Data against loss or theft, as well as unauthorised access, disclosure, copying, use or modification. Such safeguards will include physical measures, organisational measures and technological measures, for example locked filing cabinets, restricted access to offices, security clearances and limiting access on a “need to know” basis and use of passwords and encryption. Procedures for implementing these measures will be communicated to all the Company’s employees and third parties to ensure compliance with this principle.",
-            "list_12": "<span class='highlight'>ACCESS PRINCIPLE<span class='highlight'>",
-            "list_12_1": "Any person dealing with the Company can have access to his or her Personal Data that the Company has in its possession or control and may request that his or her Personal Data be amended for purposes of accuracy and completeness subject to such written request or notification be provided to the Company.",
-            "list_12_2": "Under such circumstances, you may request to access or request for a copy of your Personal Data that held by us or to request to update or rectify the accuracy of your Personal Data which may subject to a minimal administrative fee to cover the costs involved in processing your request to access to your Personal Data.",
-            "list_12_3": "You may also opt to rectify or update your previous Personal Data that has been registered and/or collected by the Company by editing your profile on the “Settings” page on Pay It Forward App. However please take note that you may not delete information that has been associated with any past transactions.",
-            "list_13": "<span class='highlight'>SENSITIVE PERSONAL DATA</span>",
-            "list_13_1": "Save and except stated herein, the Company does not collect and process any sensitive Personal Data in its ordinary course of business.",
-            "list_13_2": "If such need arises after your creation of account with the Company, the Company will obtain explicit consent from you before it collects and processes any sensitive Personal Data.",
-            "list_14": "<span class='highlight'>THE PAY IT FORWARD APP (TO BE READ WITH THE PAY IT FORWARD TERMS AND CONDITIONS)</span>",
-            "list_14_1": "Subject to development and circumstances from time to time, the Company may provide products and/or services via Pay It Forward App, whether directly or through any third party. When you visit Pay It Forward App, the web servers will generally record anonymous information such as the time, date and URL of the request. This information assists the Company to improve the structure of Pay It Forward App and monitor the performance. From time to time the Company may also use third parties to analyse this anonymous information.",
-            "list_14_2": "As mandatory in the usage of Pay It Forward App, the Company may require standard information such as login ID, password, Personal Data for verification purposes, contact details and/or identification information. This information is necessary for the Company to provide the products and services. You are required to maintain your secrecy of own login ID and password enabling the access to Pay It Forward App. It is strongly stressed that the Company will not be able to secure the Personal Data if you choose to reveal your own login ID and password to anyone and as such, is not liable for any breach or leakage of Personal Data.",
-            "list_15": "<span class='highlight'>CONTACT METHOD</span>",
-            "list_15_1": "We are committed to protect the Personal Data of all customers and/or users. If you have any questions in relation to this Notice and/or wish to withdraw your consent, access or modify the Personal Data that we have collected or processed or complaints pertaining to this Notice, please contact via email at tickets@payitforward.io and we will respond to such request promptly or within three (3) working days.",
-            "list_16": "<span class='highlight'>PREVAILING LANGUAGE</span>",
-            "list_16_1": "In the event of any inconsistencies, errors, mistakes or discrepancies between the English version and other translated versions of this Notice whether done by the Company or other unknown third party(ies), the English version shall prevail.",
-            "list_8": "<span class='highlight'>GENERAL PRINCIPLE </span>",
-            "list_8_1": "We will use, process, record, hold, store, share and disclose (“<span class='highlight'>Process</span>”) the data and information we collect and gather from you (“<span>Personal Data</span>”) during your course of dealing and transacting in Pay It Forward App, in any manner, among others, for the following purposes:",
-            "list_8_1_a": "to subscribe or procure permissible services via Pay It Forward App;",
-            "list_8_1_b": "to purchase or receive products or services via Pay It Forward App;",
-            "list_8_1_c": "to advertise, sell and promote products and/or services via Pay It Forward App;",
-            "list_8_1_d": "to process and complete transactions with the Company or any merchant on Pay It Forward App;",
-            "list_8_1_e": "to process, manage and maintain all user’s or merchant’s personal account under the Pay It Forward App;",
-            "list_8_1_f": "to process, manage and maintain your credits, tokens, coupons or points system and activities;",
-            "list_8_1_g": "to process any payment or refund due under the access account or to enjoy the online payment features;",
-            "list_8_1_h": "for data processing, updating of any databases and customer services related matters;",
-            "list_8_1_i": "to communicate with the relevant governing entity, including to extend your queries/inquiries, complaints to them and to enable them to generally resolve your concern/disputes; and",
-            "list_8_1_j": "for any other purpose that is incidental or ancillary or in furtherance to the above purposes.",
-            "list_8_2": "Your continuance use of Pay It Forward App shall nevertheless amount to your consent for the processing of the Personal Data by the Company.",
-            "list_8_3": "The Company will record and maintain a record or register of consent by your continued use of the Pay It Forward App as appearing on our active user database.",
-            "list_8_4": "If you are underage or below the age of majority under the laws of the country you are residing, you should ensure that you have obtained the consent of your parent(s) or legal guardian(s) before using any services on Pay It Forward App or browsing the Pay It Forward App. The Company shall not be responsible for any unauthorised usage of Pay It Forward App should you incur or suffer any losses or damages.",
-            "list_8_5": "The Company does not sell, share or trade your Personal Data collected or processed with any unauthorised third party(ies), unless consented by you or expressly specified herein.",
-            "list_8_6": "When you register an account on Pay It Forward App, the Personal Data that we may collect and process would include but not limited to your:",
-            "list_8_6_a": "Name",
-            "list_8_6_b": "Email address;",
-            "list_8_6_c": "Address;",
-            "list_8_6_d": "Date of birth;",
-            "list_8_6_e": "Gender;",
-            "list_8_6_f": "Contact number;",
-            "list_8_6_g": "Identification number;",
-            "list_8_6_h": "Passport number (or other Government-issued identification document details, address proof and/or other information that can used to identify you);",
-            "list_8_6_i": "Photo;",
-            "list_8_6_j": "Video footage;",
-            "list_8_6_k": "Video caption;",
-            "list_8_6_l": "Data from any responses you provide to surveys; and",
-            "list_8_6_m": "Transaction trail or activity data (including records of any communication you have with us or under any chat function of Pay It Forward App).",
-            "list_8_7": "The Company does not collect and process any data or information regarding your banking, credit or debit card details including the payment methodology. The online payment gateway offered by the Company, if any, does not belong to the Company but authorised third party, vendor, supplier and/or service provider. The Company does not retain such data or information instead of the parties mentioned above or your own respective bank or financial institutions.",
-            "list_8_8": "Despite the above, the Company may also collect your Personal Data from a range of sources including but not limited to any events, activities, contests, promotional activities, surveys, social media tools or pages.",
-            "list_8_9": "The Personal Data that we collected from you will be used and shared within our group of entities and to authorised third party for one or any of the following purposes:",
-            "list_8_9_a": "to process, manage and/or verify your actual identity;",
-            "list_8_9_b": "to maintain, upgrade and/or improve Pay It Forward App and/or our services to you from time to time;",
-            "list_8_9_c": "to perform and/or validate your access into any services or features provided by Pay It Forward App;",
-            "list_8_9_d": "to provide certain Personal Data collected to the merchants for enquiry and/or purchase of products and/or services purposes, if you are a registered customer of Pay It Forward App;",
-            "list_8_9_e": "certain Personal Data of the merchant will be displayed and made available on the merchant’s profile page on Pay It Forward App for the viewing of the customer of Pay It Forward App;",
-            "list_8_9_f": "to allow us to administer, maintain and/or support your registered account with us;",
-            "list_8_9_g": "to verify and carry out financial transactions in relation to the payments you make online via Pay It Forward App such as the process of the financial information or payment made through Pay It Forward App will be processed by the appointed agent, vendor and/or supplier as such disclosure is necessary for the purpose of conducting the sales transaction(s) that you have opted for;",
-            "list_8_9_h": "to communicate with you and to maintain, upgrade and/or improve our customer relationship with you including to provide customer support to you;",
-            "list_8_9_i": "to conduct market surveys and/or research, customer profiling and its analysis, usage and activity trends pertaining to Pay It Forward App;",
-            "list_8_9_j": "to protect and/or enforce parties’ legal rights including but not limited to initiating or defending any legal proceeding;",
-            "list_8_9_k": "to detect, investigate or prevent any fraudulent or illegal activities or misuse of Pay It Forward App for illegal purpose and/or purposes or intention that violates the legislation or any governmental policies;",
-            "list_8_9_l": "to transfer, assign and/or validate the parties’ rights, interests and/or obligations under any contractual agreement entered between us;",
-            "list_8_9_m": "for the Company’s internal administrative work purposes;",
-            "list_8_9_n": "In addition to the Personal Data that was mentioned or outlined aforesaid, you may be asked to subscribe to our marketing and/or promotional materials including but not limited to activities below which may come from our group of entities or through affiliation with authorised third party(ies), if any. You are at your liberty and choice to unsubscribe from marketing information at any time by contacting us <span class='highlight'>via phone or email</span> or opting for the unsubscribe function within the electronic marketing material or available options:",
-            "list_8_9_n_1": "announcements on products, services, contests, events, activities, promotions, campaigns, offers or surveys by the Company;",
-            "list_8_9_n_2": "to send seasonal or festive greetings or messages to you; ",
-            "list_8_9_n_3": "events or activities organised or jointly organised by us and our business partners which may be of interest to you; and",
-            "list_8_9_o": "your data pertaining to the activities in using Pay It Forward App may be stored with us or authorised third party(ies) but may not be retrieved directly by us, depending on the circumstances from time to time. However, you may access and view such information by logging into your account on Pay It Forward App, if such data is made available by us. You undertake and guarantee to treat the Personal Data that can be accessed by you confidentially and shall not make it available to unauthorised third party(ies). We cannot and would not assume any liability for any misuse of passwords unless this misuse is through our own fault.",
-            "list_9": "<span class='highlight'>DISCLOSURE PRINCIPLE</span>",
-            "list_9_1": "The Company will only disclose the Personal Data to comply with any government agency notification requirements and/or for the purpose for which the Personal Data is processed where you have consented to disclosure.",
-            "list_9_2": "The Company may from time to time contact you on behalf of external business partners about particular goods, offers or services that may be of interest to you. In those cases, the Personal Data that may identify you will not be transferred to the third party. All communication whether from the Company or the Company’s business partners may or may not be sent to you by the Company directly. If you are not agreeable to this, you shall immediately inform the Company after your registration of account on the Pay It Forward App.",
-            "list_9_3": "Despite the above, the Company may still disclose some of your Personal Data to the following third parties for legitimate purposes, such as:",
-            "list_9_3_a": "your immediate family members and/or emergency contact person as may be notified to us or requested by us from time to time, if any;",
-            "list_9_3_b": "any individual or entity that is under a duty of maintaining confidentiality to whom has undertaken such duty to keep your Personal Data in confidential engaged by us;",
-            "list_9_3_c": "professional advisers appointed or engaged by us including but not limited to lawyers, auditors, accountants and others;",
-            "list_9_3_d": "data centres or servers situated outside of your country to process or store the Personal Data where you hereby expressly consent to us to transfer your Personal Data out of the country(ies) other than the country your are currently residing, which might not provide or offer the same or better level of data protection measures or standards;",
-            "list_9_3_e": "insurance company(ies) to apply and obtain insurance policy(ies), if any;",
-            "list_9_3_f": "to the public at large when you become the winner in any contests or activities; and",
-            "list_9_3_g": "any other or relevant party pertaining to any proposed or actual corporate restructure activities, merger or acquisitions, sale, consolidation, joint venture, assignment, transfer, funding or realisation of assets, share sale relating to any portion of the Company’s business or in the highly unlikely event of insolvency, bankruptcy, winding up or receivership whichever is applicable.",
-            "list_9_4": "The failure to provide your Personal Data may lead to the consequences that we are unable to enable the functions, features and operation of Pay It Forward App to you and you will not be able to enjoy the Pay It Forward App and its services.",
-            "section_title": "C. SCOPE OF THE PERSONAL DATA PROTECTION PRINCIPLES IN THIS NOTICE"
+        "education_3": {
+            "date": "从 2019 年 9 月开始",
+            "experience": "UM 计算机科学学士",
+            "description": "主修计算机系统和网络在 University of Malaya (CGPA of 3.96)"
         },
-        "title": "Privacy Policy"
-    }
+        "professional_1": {
+            "date": "2021 年 3 月 - 2022 年 3 月",
+            "experience": "Digital Resilience SBX (DRSBX)",
+            "description": "我们由 6 人组成的团队接受了 University of New South Wales 大学的任务，开发了一个安全评估 Web App。我是这个项目的 backend 工程师。"
+        },
+        "professional_2": {
+            "date": "2021 年 7 月 - 2022 年 1 月",
+            "experience": "Cognixus Technologies - 软件工程师实习生",
+            "description": "作为软件工程师进行了工业培训。学习了如何设计和开发 Mobile 和 Web App。学习了如何写和部署 Docker。"
+        },
+        "professional_3": {
+            "date": "2022 年 3 月 - 至今",
+            "experience": "员工绩效考核系统 (FYP)",
+            "description": "与 Cognixus Technologies 合作，为现有的 Hexfere HRMS 系统开发员工绩效评估插件。"
+        }
+    },
+    "contact_page": {
+        "title_1": "保持",
+        "title_2": "联系",
+        "subtitle": "想取得联系？您可以通过以下方式联系我。",
+        "contact_1_description": "传一个电子邮件给我!",
+        "contact_2_description": "在 Whatsapp 上给我留言!",
+        "contact_3_description": "让我们在 LinkedIn 上联系吧!",
+        "contact_4_description": "查看我的 Github 存储库!",
+        "contact_5_description": "查看我的 Leetcode 帐户!",
+        "contact_6_description": "查看我的 Kaggle 帐户!"
+    },
+    "skills_page": {
+        "title_1": "技",
+        "title_2": "能",
+        "subtitle": "这是我的技能列表",
+        "skill_1": "CSS",
+        "skill_2": "DJANGO",
+        "skill_3": "DOCKER",
+        "skill_4": "FLASK",
+        "skill_5": "FLUTTER",
+        "skill_6": "GIT",
+        "skill_7": "HEROKU",
+        "skill_8": "HTML",
+        "skill_9": "I18N",
+        "skill_10": "NETLIFY",
+        "skill_11": "NUXT",
+        "skill_12": "POSTGRES",
+        "skill_13": "POSTMAN",
+        "skill_14": "PYTHON",
+        "skill_15": "VUE"
+    },
+    "projects_page": {
+        "title_1": "我参与 ",
+        "title_2": "的项目",
+        "subtitle": "这是我的旅程",
+        "link": "链接网址",
+        "click_here": "点击这里",
+        "category": "项目类别",
+        "status": "项目状态",
+        "project_1": {
+            "title": "BeFitter",
+            "start_date": "2020 年 12 月",
+            "end_date": "2021 年 1 月",
+            "category": "私人项目",
+            "status": "完成",
+            "description": "一个使用 Django 构建的简单练习博客。在整个项目中，我主要接触了 HTML 和 CSS. 除此之外，我还通过这个项目学习了如何在 Heroku 上部署 Django App。"
+        },
+        "project_2": {
+            "title": "动漫追踪网站",
+            "start_date": "2021 年 4 月",
+            "end_date": "2021 年 5 月",
+            "category": "私人项目",
+            "status": "完成",
+            "description": "动漫追踪网站从 Jikan API 获取数据并允许用户执行 CRUD 操作。这个项目让我接触到了使用 REST API 将我的 React 前端和 Django 后端链接在一起。"
+        },
+        "project_3": {
+            "title": "算法类项目（2个位置之间的最短距离）",
+            "start_date": "2021 年 3 月",
+            "end_date": "2021 年 6 月",
+            "category": "大学作业",
+            "status": "完成",
+            "description": "我们的任务是创建一个应用程序来计算用户输入的两个位置之间的最短可行驶距离。我们使用 Map Box API 并利用 min-heap 算法来计算和确定 Map Box API 提供的最短距离。"
+        },
+        "project_4": {
+            "title": "Pay It Forward Mobile Application",
+            "start_date": "2021 年 7 月",
+            "end_date": "2021年10月",
+            "category": "实习",
+            "status": "完成",
+            "description": "Pay It Forward (PIF) 是一个通过分享和转发的精神促进关爱社区的平台。在整个项目的开发过程中，我学习了如何使用 Flutter 框架实现 UI/UX 设计、业务逻辑、状态管理和单元测试。此外，我在工业级移动应用程序的开发方面也获得了宝贵的经验。"
+        },
+        "project_5": {
+            "title": "Pay It Forward 网站",
+            "start_date": "2021 年 10 月",
+            "end_date": "2021 年 11 月",
+            "category": "实习",
+            "status": "完成",
+            "description": "我和一位来自 UM 的实习生的任务是为 Pay It Forward (PIF) 开发一个网站。我已经学会了如何使用 Nuxt Js 开发网站，该网站具有使用 i18n 服务的语言切换功能和使用 vee-validate 的电子邮件验证。我还学习了如何编写 Docker Commands 并将 Docker 映像部署到 Kubernetes 集群。"
+        },
+        "project_6": {
+            "title": "Hexfere HRMS Jetson Nano Web Application",
+            "start_date": "2021 年 12 月",
+            "end_date": "2022 年 1 月",
+            "category": "实习",
+            "status": "完成",
+            "description": "使用 Flask 创建了一个网站，允许 ML 团队将其面部识别技术集成到其中。微框架 Flask 降低了资源利用率，让 Jetson Nano 可以为面部识别技术分配更多资源。"
+        },
+        "project_7": {
+            "title": "Digital Resilience SBX",
+            "start_date": "2021 年 3 月",
+            "end_date": "2022 年 3 月",
+            "category": "兼职",
+            "status": "完成",
+            "description": "我们，一个由马来亚大学的 6 名成员组成的小组，受新南威尔士大学的 Yenni Tim 博士的委托，创建了一个网络安全评估网站的原型。我和我的组长一起负责项目的后端开发。在整个项目中，我学习了如何设计数据库，通过编写模型和为 CRUD 操作创建 API 来在 Django 中实现设计。我还学习了如何进行单元测试和自定义 Django 管理页面。此外，我还学习了如何设置 Docker 和 Docker Compose 以允许我们在 Digital Ocean 的 Droplet 部署。"
+        },
+        "project_8": {
+            "title": "费用跟踪 Mobile App",
+            "start_date": "2022 年 1 月",
+            "end_date": "现在",
+            "category": "私人项目",
+            "status": "进行中",
+            "description": "启动费用跟踪项目以进一步提高我的移动开发技能。我对 Flutter 的状态管理（Cubit 和 State）有了更深入的了解。此外，我还学习了如何通过将 Firebase 的 Firestore 用作 No SQL 数据库来执行 CRUD 操作。"
+        },
+        "project_9": {
+            "title": "简历网站 V2",
+            "start_date": "2022 年 3 月",
+            "end_date": "2022 年 4 月",
+            "category": "私人项目",
+            "status": "完成",
+            "description": "决定应用我在实习中学到的技能，使用 Nuxt Js 重建我的投资组合网页，并托管在 Netlify 上。这是我在实习之前的旧作品集网站 https://edwardweeold.netlify.app/。在当前的简历网站上应用了 Responsive 设计。"
+        }
+    },
+    "experience": "经验",
+    "skills": "技能",
+    "projects": "项目",
+    "chinese": "简体中文",
+    "contact": "联络",
+    "english": "English",
+    "footer": {
+        "credit": "版权所有 © 2022 Edward Wee。"
+    },
+    "home": "主页",
+    "malay": "Malay"
 }
