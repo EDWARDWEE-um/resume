@@ -4,6 +4,15 @@
       <div class="col-lg-9 mx-auto">
         <ul class="timeline">
           <PrProjectCard
+            :title="this.$t('projects_page.project_9.title')"
+            :start_date="this.$t('projects_page.project_9.start_date')"
+            :end_date="this.$t('projects_page.project_9.end_date')"
+            :description="this.$t('projects_page.project_9.description')"
+            :category="this.$t('projects_page.project_9.category')"
+            :status="this.$t('projects_page.project_9.status')"
+            :link_url="'https://github.com/EDWARDWEE-um/resume'"
+          />
+          <PrProjectCard
             :title="this.$t('projects_page.project_8.title')"
             :start_date="this.$t('projects_page.project_8.start_date')"
             :end_date="this.$t('projects_page.project_8.end_date')"
@@ -101,8 +110,6 @@ ul.timeline {
   position: relative;
   padding-left: 2.5rem;
   padding-bottom: 2.5rem;
-  
-  
 }
 
 /* Timeline vertical line */
@@ -116,6 +123,5 @@ ul.timeline:before {
   height: 100%;
   z-index: 400;
   border-radius: 1rem;
-  
 }
 </style>

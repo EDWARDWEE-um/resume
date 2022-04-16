@@ -53,7 +53,9 @@
         "contact_1_description": "Send me an email !",
         "contact_2_description": "Message me on Whatsapp !",
         "contact_3_description": "Let's connect on LinkedIn !",
-        "contact_4_description": "Check out my Github repos !"
+        "contact_4_description": "Check out my Github repos !",
+        "contact_5_description": "Check out my Leetcode account !",
+        "contact_6_description": "Check out my Kaggle account !"
     },
     "skills_page": {
         "title_1": "SKI",
@@ -146,6 +148,14 @@
             "category": "Self Project",
             "status": "Ongoing",
             "description": "Started Expense Tracker project to further enhance my mobile development skillsets. I have learned deeper about Flutter's State Management (Cubit and State). Furthermore, I have also learned how to perform CRUD operations through utilising Firebase's Firestore as a No SQL database."
+        },
+        "project_9": {
+            "title": "Portfolio Website V2",
+            "start_date": "March 2022",
+            "end_date": "April 2022",
+            "category": "Self Project",
+            "status": "Completed",
+            "description": "Decided to apply the skills I have learned on my internship to rebuild my portfolio webpage using Nuxt Js and hosted on Netlify. This is my old portfolio website, https://edwardwee.netlify.app/ before undergoing internship. Have applied mobile responsive design on current portfolio website."
         }
     },
     "experience": "Experience",

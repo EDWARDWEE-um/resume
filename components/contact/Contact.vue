@@ -21,6 +21,16 @@
         :description="this.$t('contact_page.contact_4_description')"
         :func="github"
       />
+      <CuContactCard
+        :icon="require('@/assets/icons/common/leetcode.png')"
+        :description="this.$t('contact_page.contact_5_description')"
+        :func="leetcode"
+      />
+      <CuContactCard
+        :icon="require('@/assets/icons/common/kaggle.png')"
+        :description="this.$t('contact_page.contact_6_description')"
+        :func="kaggle"
+      />
     </div>
   </div>
 </template>
@@ -40,6 +50,12 @@ export default {
     github() {
       window.open("https://github.com/EDWARDWEE-um");
     },
+    leetcode() {
+      window.open("https://leetcode.com/edwardwee/");
+    },
+    kaggle() {
+      window.open("https://www.kaggle.com/edwardwee");
+    },
   },
 };
 </script>
@@ -58,8 +74,7 @@ export default {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
-    width: 1200px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {

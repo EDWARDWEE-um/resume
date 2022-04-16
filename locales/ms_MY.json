@@ -53,7 +53,9 @@
         "contact_1_description": "Send me an email !",
         "contact_2_description": "Message me on Whatsapp !",
         "contact_3_description": "Let's connect on LinkedIn !",
-        "contact_4_description": "Check out my Github repos !"
+        "contact_4_description": "Check out my Github repos !",
+        "contact_5_description": "Check out my Leetcode account !",
+        "contact_6_description": "Check out my Kaggle account !"
     },
     "skills_page": {
         "title_1": "SKI",

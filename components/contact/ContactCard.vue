@@ -27,7 +27,7 @@ export default {
 <style scoped lang="scss">
 .card {
   width: 300px;
-  height: 400px;
+  height: 300px;
   border: none;
   background: var(--bg);
   cursor: pointer;
