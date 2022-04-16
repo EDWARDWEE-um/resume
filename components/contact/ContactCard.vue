@@ -56,7 +56,7 @@ export default {
 @media only screen and (max-width: 768px) {
   .card {
     width: 200px;
-    height: 250px;
+    height: 180px;
     h5 {
       font-size: 20px;
     }

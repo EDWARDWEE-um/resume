@@ -44,7 +44,7 @@ div.about-PIF {
     text-align: center;
     color: var(--color-primary-text);
     .highlight {
-      color: var(--bg-secondary);
+      color: var(--bg-secondary-text);
     }
   }
 

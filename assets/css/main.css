@@ -4,6 +4,7 @@
   --color-secondary: #0e2233;
   --bg: #f3f5f4;
   --bg-secondary: #d2b48c;
+  --bg-secondary-text: #d2b48c;
   --border-color: #ddd;
   --color-primary-text: black;
   --color-line: black;
@@ -23,18 +24,19 @@
   --color-primary-text: #b2b8b6;
   --color-secondary-text: #c1c9c6;
   --color-primary: #41b38a;
-  --color-secondary: #fdf9f3;
+  --color-secondary: #c1c9c6;
   --color-line: white;
   --bg: #091a28;
   --bg-secondary: #0c3050;
+  --bg-secondary-text: #1b4468;
   --border-color: #0d2538;
   --color-nav-shrink:rgba(27, 24, 24, 0.8);
   --color-subtitle-text:#8d8d8d;
   --color-nav-active:white;
-  --color-language-button:rgb(22, 65, 156);
+  --color-language-button:#103b64;
   --bg-footer: #0e283d;
   --bg-language-bg:#0e385e;
-  --color-button-active:#134e85;
+  --color-button-active:#134777;
 
 
   

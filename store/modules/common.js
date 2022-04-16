@@ -20,7 +20,7 @@ const common = {
                 height: innerHeight,
             }
 
-            state.isMobile = state.windowDimens.width <= 800;
+            state.isMobile = state.windowDimens.width <= 768;
         },
         setScrollTop: (state, scrollTop) => {
             state.scrollTop = scrollTop;

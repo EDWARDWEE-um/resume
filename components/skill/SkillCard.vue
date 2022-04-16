@@ -23,7 +23,7 @@ export default {
 <style scoped lang="scss">
 .card {
   width: 250px;
-  height: 300px;
+  height: 250px;
   border: none;
   background: var(--bg);
   .card-img-top {
@@ -33,7 +33,10 @@ export default {
   }
   h5 {
     text-align: center;
-    color:var(--color-primary-text);
+    color: var(--color-primary-text);
+  }
+  @media only screen and (max-width: 768px) {
+    height: 180px;
   }
 }
 </style>

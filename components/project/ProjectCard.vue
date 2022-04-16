@@ -1,5 +1,5 @@
 <template>
-  <li class="timeline-item rounded ml-3 p-4 shadow">
+  <li class="timeline-item rounded ml-3 p-4 ">
     <div data-aos="fade-right" class="timeline-arrow"></div>
     <div data-aos="fade-down-right">
       <h1>{{ title }}</h1>
@@ -103,6 +103,8 @@ img.project-image {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  
+  
 }
 .embed-container iframe,
 .embed-container object,
@@ -112,10 +114,14 @@ img.project-image {
   left: 0;
   width: 100%;
   height: 100%;
+  
 }
 li.timeline-item {
   margin: 20px 0;
   background: var(--bg-secondary);
+  box-shadow: 0 2px 10px var(--color-secondary);
+
+  
 }
 
 /* Timeline item arrow */
@@ -126,6 +132,7 @@ li.timeline-item {
   display: block;
   position: absolute;
   left: 2rem;
+  
 }
 
 /* Timeline item circle marker */
@@ -140,7 +147,7 @@ li.timeline-item::before {
   width: 14px;
   height: 14px;
   z-index: 400;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 15px var(--color-secondary);
 }
 
 h1 {

@@ -55,7 +55,7 @@ export default {
   height: 500px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
-  box-shadow: 0 8px 40px rgba(#000000, 0.2);
+  box-shadow: 0 2px 15px var(--color-secondary);
   background: var(--bg-secondary);
 
   .top-icons {
@@ -158,7 +158,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .wrapper {
     min-width: 250px;
     min-height: 400px;

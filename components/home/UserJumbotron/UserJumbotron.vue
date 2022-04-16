@@ -8,6 +8,9 @@
     <p>
       {{ $t("homepage.description") }}
     </p>
+    <div>
+      <a href="assets/resume/Wee Chee Shen CV.pdf" download="Edward Wee Chee Shen CV"> Resume</a>
+    </div>
   </div>
 </template>
 

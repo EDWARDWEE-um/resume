@@ -1,6 +1,18 @@
 <template>
   <client-only>
     <nav class="navbar" :class="{ shrink: scrollTop >= 200 }" id="nav">
+       <img
+          v-if="$colorMode.value == 'light'"
+          class="app-icon"
+          src="~/assets/icons/common/edwardwee.png"
+          @click="$router.push('/')"
+        />
+          <img
+          v-if="$colorMode.value == 'dark'"
+          class="app-icon"
+          src="~/assets/icons/common/edwardweedark.png"
+          @click="$router.push('/')"
+        />
       <div class="app-icon-container">
         <div v-if="isMobile" class="theme-container">
           <img
@@ -321,6 +333,7 @@ div.vertical-line {
   .dropdown-menu.show {
     border-radius: 15px;
     min-width: 60px;
+    background: var(--bg);
   }
 
   .dropdown-item.active {

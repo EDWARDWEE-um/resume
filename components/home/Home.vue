@@ -1,21 +1,6 @@
 <template>
   <div class="home1">
-    <div card="home-top">
-      <div v-if="!isMobile">
-        <img
-          v-if="$colorMode.value == 'light'"
-          class="app-icon"
-          src="~/assets/icons/common/edwardwee.png"
-          @click="$router.push('/')"
-        />
-          <img
-          v-if="$colorMode.value == 'dark'"
-          class="app-icon"
-          src="~/assets/icons/common/edwardweedark.png"
-          @click="$router.push('/')"
-        />
-      </div>
-    </div>
+    
     <div class="home-card-background">
       <div class="home-card">
         <Transition name="right" appear>
@@ -73,6 +58,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-top: 120px;
 
   .home-top {
     flex-grow: 1;
@@ -111,9 +97,12 @@ export default {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .home1 {
+    padding-top: 0;
+    padding-bottom: 50px;
     .home-card-background {
+      height: 100%;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -122,9 +111,9 @@ export default {
         var(--bg) 65%,
         var(--bg-secondary) 0%
       );
-      height: 140vh;
+      height: auto;
       .home-card {
-        margin-top: 10%;
+        padding-top: 100px;
         display: flex;
         justify-content: center;
         flex-direction: column;

@@ -102,6 +102,7 @@ ul.timeline {
   padding-left: 2.5rem;
   padding-bottom: 2.5rem;
   
+  
 }
 
 /* Timeline vertical line */
@@ -115,5 +116,6 @@ ul.timeline:before {
   height: 100%;
   z-index: 400;
   border-radius: 1rem;
+  
 }
 </style>
