@@ -9,7 +9,7 @@
       {{ $t("homepage.description") }}
     </p>
     <div>
-      <a href="@/assets/resume/Wee Chee Shen CV.pdf" download> Resume</a>
+      <a href="/Wee Chee Shen CV.pdf" download> Resume</a>
     </div>
   </div>
 </template>
