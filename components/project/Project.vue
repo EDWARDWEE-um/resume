@@ -96,12 +96,22 @@
           />
         </ul>
       </div>
+      <button @click="scrollToTop">a</button>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+    scrollFunction(){
+      if()
+    }
+  },
+};
 </script>
 
 <style>
