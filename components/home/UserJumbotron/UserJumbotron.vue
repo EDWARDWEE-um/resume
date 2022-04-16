@@ -9,7 +9,7 @@
       {{ $t("homepage.description") }}
     </p>
     <div>
-      <a :href="require('@/assets/resume/Wee Chee Shen CV.pdf')" download>
+      <a href="./Wee Chee Shen CV.pdf" download>
         Download
       </a>
     </div>
