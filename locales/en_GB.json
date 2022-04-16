@@ -155,7 +155,7 @@
             "end_date": "April 2022",
             "category": "Self Project",
             "status": "Completed",
-            "description": "Decided to apply the skills I have learned on my internship to rebuild my portfolio webpage using Nuxt Js and hosted on Netlify. This is my old portfolio website, https://edwardwee.netlify.app/ before undergoing internship. Have applied mobile responsive design on current portfolio website."
+            "description": "Decided to apply the skills I have learned on my internship to rebuild my portfolio webpage using Nuxt Js and hosted on Netlify. This is my old portfolio website, https://edwardweeold.netlify.app/ before undergoing internship. Have applied mobile responsive design on current portfolio website."
         }
     },
     "experience": "Experience",
