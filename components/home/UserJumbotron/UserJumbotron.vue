@@ -9,7 +9,9 @@
       {{ $t("homepage.description") }}
     </p>
     <div>
-      <a href="/Wee Chee Shen CV.pdf" download> Resume</a>
+      <a :href="require('@/assets/resume/Wee Chee Shen CV.pdf')" download>
+        Download
+      </a>
     </div>
   </div>
 </template>
@@ -38,28 +40,24 @@ export default {
     font-size: 65px;
     letter-spacing: 0.82px;
     margin-bottom: 5%;
-      color: var(--color-primary-text);
-
+    color: var(--color-primary-text);
   }
-  hr{
-      color: var(--color-line);
-    
+  hr {
+    color: var(--color-line);
   }
   h1.subtitle {
     font-variant: bold;
     font-weight: 500;
     font-size: 45px;
     letter-spacing: 0.82px;
-      color: var(--color-primary-text);
-
+    color: var(--color-primary-text);
   }
   p {
     text-align: justify;
     font-size: 14px;
     line-height: 32px;
     letter-spacing: 0.21px;
-      color: var(--color-primary-text);
-
+    color: var(--color-primary-text);
   }
 }
 @media only screen and (max-width: 768px) {

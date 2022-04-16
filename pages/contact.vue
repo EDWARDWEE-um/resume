@@ -43,8 +43,6 @@ export default {};
 
 div.contact-page-container {
   background: var(--bg);
-  .section {
-  }
 
   @media only screen and (max-width: 768px) {
     height: 100%;
