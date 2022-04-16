@@ -1,18 +1,20 @@
 <template>
   <client-only>
     <nav class="navbar" :class="{ shrink: scrollTop >= 200 }" id="nav">
-       <img
+      <div v-if="!isTablet">
+        <img
           v-if="$colorMode.value == 'light'"
           class="app-icon"
           src="~/assets/icons/common/edwardwee.png"
           @click="$router.push('/')"
         />
-          <img
+        <img
           v-if="$colorMode.value == 'dark'"
           class="app-icon"
           src="~/assets/icons/common/edwardweedark.png"
           @click="$router.push('/')"
         />
+      </div>
       <div class="app-icon-container">
         <div v-if="isMobile" class="theme-container">
           <img
@@ -220,7 +222,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.navbar{
+  padding-bottom: 100px;
+
+}
 nav {
+  .app-icon {
+    width: 150px;
+    height: auto;
+  }
   position: fixed;
   width: 100%;
   padding: 3% 10%;
@@ -303,9 +313,8 @@ img.themeIcon {
 .dropdown-item-text {
   font-size: 14px !important;
 }
-span{
+span {
   color: var(--color-nav) !important;
-
 }
 
 .dropdown-title-custom {
