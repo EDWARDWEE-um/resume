@@ -23,7 +23,7 @@ const common = {
             }
 
             state.isMobile = state.windowDimens.width <= 768;
-            state.isTablet = state.windowDimens.width <= 800;
+            state.isTablet = state.windowDimens.width <= 900;
         },
         setScrollTop: (state, scrollTop) => {
             state.scrollTop = scrollTop;
