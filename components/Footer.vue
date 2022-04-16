@@ -15,6 +15,12 @@
           <button class="btn" type="button" @click="gmail">
             <img class="icons" src="@/assets/icons/common/gmail.png" />
           </button>
+          <button class="btn" type="button" @click="leetcode">
+            <img class="icons" src="@/assets/icons/common/leetcode.png" />
+          </button>
+          <button class="btn" type="button" @click="kaggle">
+            <img class="icons" src="@/assets/icons/common/kaggle.png" />
+          </button>
         </div>
       </div>
     </div>
@@ -44,19 +50,19 @@ export default {
           route: "/",
         },
         {
-          title: "Experience",
+          title: "experience",
           route: "/experience",
         },
         {
-          title: "Skills",
+          title: "skills",
           route: "/skills",
         },
         {
-          title: "Projects",
+          title: "projects",
           route: "/project",
         },
         {
-          title: "Contact",
+          title: "contact",
           route: "/contact",
         },
       ],
@@ -74,6 +80,12 @@ export default {
     },
     github() {
       window.open("https://github.com/EDWARDWEE-um");
+    },
+    leetcode() {
+      window.open("https://leetcode.com/edwardwee/");
+    },
+    kaggle() {
+      window.open("https://www.kaggle.com/edwardwee");
     },
   },
 };

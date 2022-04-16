@@ -31,36 +31,36 @@
             "description": "Khusus dalam Sistem dan Rangkaian Komputer di University Malaya dengan pencapaian CGPA 3.96"
         },
         "professional_1": {
-            "date": "March 2021 - March 2022",
+            "date": "Mac 2021 - Mac 2022",
             "experience": "Digital Resilience SBX (DRSBX)",
             "description": "Pasukan kami terdiri daripada 6 orang telah mengambil tugas daripada Universiti New South Wales untuk membangunkan aplikasi web penilaian keselamatan. Saya bertanggungjawab sebagai seorang backend developer dalam projek ini."
         },
         "professional_2": {
-            "date": "July 2021 - January 2022",
+            "date": "Julai 2021 - Januari 2022",
             "experience": "Cognixus Technologies - Jurutera Perisian Pelatih",
             "description": "Menjalankan latihan industri sebagai jurutera perisian. Mempelajari cara mereka bentuk dan membangunkan aplikasi mudah alih dan web yang boleh skala. Mempelajari cara membangunkan bahagian belakang aplikasi dan Docker."
         },
         "professional_3": {
-            "date": "March 2022 - Present",
-            "experience": "Employee Performance Review System (FYP)",
+            "date": "Mac 2022 - Kini",
+            "experience": "Sistem Penilaian Prestasi Pekerja (FYP)",
             "description": "Bekerjasama dengan Cognixus Technologies untuk membangunkan pemalam semakan prestasi untuk sistem HRMS Hexfere sedia ada."
         }
     },
     "contact_page": {
-        "title_1": "GET IN ",
-        "title_2": "TOUCH",
-        "subtitle": "WANT TO GET IN TOUCH? HERE'S HOW YOU CAN REACH ME.",
-        "contact_1_description": "Send me an email !",
-        "contact_2_description": "Message me on Whatsapp !",
-        "contact_3_description": "Let's connect on LinkedIn !",
-        "contact_4_description": "Check out my Github repos !",
-        "contact_5_description": "Check out my Leetcode account !",
-        "contact_6_description": "Check out my Kaggle account !"
+        "title_1": "HUBUNGI",
+        "title_2": "SAYA",
+        "subtitle": "HENDAK BERHUBUNG? INI BAGAIMANA BELIAU BOLEH MENGHUBUNGI SAYA.",
+        "contact_1_description": "Hantarkan e-mel kepada saya !",
+        "contact_2_description": "Mesej saya di Whatsapp !",
+        "contact_3_description": "Mari sambung di LinkedIn !",
+        "contact_4_description": "Lihat repo Github saya !",
+        "contact_5_description": "Lihat akaun Leetcode saya !",
+        "contact_6_description": "Lihat akaun Kaggle saya !"
     },
     "skills_page": {
-        "title_1": "SKI",
-        "title_2": "LLS",
-        "subtitle": "HERE ARE MY SKILLSETS",
+        "title_1": "KEMAH",
+        "title_2": "IRAN",
+        "subtitle": "INI ADALAH KEMAHIRAN SAYA",
         "skill_1": "CSS",
         "skill_2": "DJANGO",
         "skill_3": "DOCKER",
@@ -78,87 +78,95 @@
         "skill_15": "VUE"
     },
     "projects_page": {
-        "title_1": "PROJECTS ",
-        "title_2": "INVOLVED",
-        "subtitle": "THIS IN MY JOURNEY",
-        "link": "Link",
-        "click_here": "Click Here",
-        "category": "Category",
+        "title_1": "PROJEK ",
+        "title_2": "TERLIBAT",
+        "subtitle": "INI DALAM PERJALANAN SAYA",
+        "link": "Pautan",
+        "click_here": "Klik Sini",
+        "category": "Kategori",
         "status": "Status",
         "project_1": {
             "title": "BeFitter",
-            "start_date": "December 2020",
-            "end_date": "January 2021",
-            "category": "Self Project",
-            "status": "Completed",
-            "description": "A simple exercise blog that is build using Django. Throughout the project, I have been exposed to the basics of web development primarily in HTML and CSS. Besides that, I have also learned how to utilise and deploy Django application on Heroku with this project."
+            "start_date": "Disember 2020",
+            "end_date": "Januari 2021",
+            "category": "Projek Kendiri",
+            "status": "Selesai",
+            "description": "Blog latihan ringkas yang dibina menggunakan Django. Sepanjang projek ini, saya telah didedahkan kepada asas pembangunan web terutamanya dalam HTML dan CSS. Selain itu, saya juga telah mempelajari cara mengerahkan aplikasi Django pada Heroku dengan projek ini."
         },
         "project_2": {
-            "title": "Anime Tracker",
+            "title": "Penjejak Anime",
             "start_date": "April 2021",
-            "end_date": "May 2021",
-            "category": "Self Project",
-            "status": "Completed",
-            "description": "Anime Tracker fetches data from Jikan API and allows users to perform CRUD operations. This project has exposed me to usage of REST API to link my React Frontend and Django Backend together."
+            "end_date": "Mei 2021",
+            "category": "Project Kendiri",
+            "status": "Selesai",
+            "description": "Penjejak Anime mengambil data daripada API Jikan dan membenarkan pengguna melakukan operasi CRUD. Projek ini telah mendedahkan saya kepada penggunaan REST API untuk memautkan React Frontend dan Django Backend saya bersama-sama."
         },
         "project_3": {
-            "title": "Algorithm Class Project (Shortest Distance Between 2 Locations)",
-            "start_date": "March 2021",
-            "end_date": "June 2021",
-            "category": "University Assignment",
-            "status": "Completed",
-            "description": "We have been tasked to create an application that calculates the shortest drivable distance between two locations input by the user. We have used Map Box API and utilised min-heap algorithm to calculate and decide the shortest distance provided by Map Box API."
+            "title": "Projek Kelas Algoritma (Jarak Terpendek Antara 2 Lokasi)",
+            "start_date": "Mac 2021",
+            "end_date": "Jun 2021",
+            "category": "Tugasan Universiti",
+            "status": "Selesai",
+            "description": "Kami telah ditugaskan untuk mencipta aplikasi yang mengira jarak pemanduan terpendek antara dua lokasi input oleh pengguna. Kami telah menggunakan API Map Box dan menggunakan algoritma \"min-heap\" untuk mengira dan memutuskan jarak terpendek yang disediakan oleh API Map Box."
         },
         "project_4": {
-            "title": "Pay It Forward Mobile Application",
-            "start_date": "July 2021",
-            "end_date": "October 2021",
-            "category": "Internship",
-            "status": "Completed",
-            "description": "Pay It Forward (PIF) is a platform for promoting a caring community through the spirit of sharing and paying forward. Throughout the development of this project, I have learned how to implement UI/UX designs, business logics, state management and unit testing using the Flutter framework. Furthermore, I have also gained valuable experience on the development of industrial level mobile applications."
+            "title": "Applikasi Mobile Pay It Forward",
+            "start_date": "Julai 2021",
+            "end_date": "Oktober 2021",
+            "category": "Latihan Amali",
+            "status": "Selesai",
+            "description": "Pay It Forward (PIF) ialah platform untuk mempromosikan komuniti penyayang melalui semangat berkongsi dan membayar ke hadapan. Sepanjang pembangunan projek ini, saya telah mempelajari cara melaksanakan reka bentuk UI/UX, logik perniagaan, pengurusan keadaan dan ujian unit menggunakan rangka kerja Flutter. Tambahan pula, saya juga telah memperoleh pengalaman berharga dalam pembangunan aplikasi mudah alih peringkat industri."
         },
         "project_5": {
-            "title": "Pay It Forward Website",
-            "start_date": "October 2021",
+            "title": "Laman Web Pay It Forward",
+            "start_date": "Oktober 2021",
             "end_date": "November 2021",
-            "category": "Internship",
-            "status": "Completed",
-            "description": "A fellow intern from UM and I have been tasked to develop a website for Pay It Forward (PIF). I have learned how to develop responsive website using Nuxt Js that has language switching functionality using i18n service and email validation using vee-validate. I have also learned how to write Docker commands and deploy the Docker image to Kubernetes Cluster."
+            "category": "Latihan Amali",
+            "status": "Selesai",
+            "description": "Saya dan rakan pelatih dari UM telah ditugaskan untuk membangunkan laman web untuk Pay It Forward (PIF). Saya telah mempelajari cara membangunkan tapak web responsif menggunakan Nuxt Js yang mempunyai fungsi penukaran bahasa menggunakan perkhidmatan i18n dan pengesahan e-mel menggunakan vee-validate. Saya juga telah belajar cara menulis arahan Docker dan mengerahkan imej Docker ke Kubernetes Cluster."
         },
         "project_6": {
-            "title": "Hexfere HRMS Jetson Nano Web Application",
-            "start_date": "December 2021",
-            "end_date": "January 2021",
-            "category": "Internship",
-            "status": "Completed",
-            "description": "Created a web application to using Flask allowing the ML team to integrate it's facial recognition technology into it. The micro-framework Flask reduces the resource utilisation and allows Jetson Nano to allocate more resources for the facial recognition technology."
+            "title": "Aplikasi Sesawang Hexfere HRMS Jetson Nano",
+            "start_date": "Disember 2021",
+            "end_date": "Januari 2022",
+            "category": "Latihan Amali",
+            "status": "Selesai",
+            "description": "Mencipta aplikasi web untuk menggunakan Flask yang membolehkan pasukan ML menyepadukan teknologi pengecaman muka ke dalamnya. Rangka kerja mikro Flask mengurangkan penggunaan sumber dan membolehkan Jetson Nano memperuntukkan lebih banyak sumber untuk teknologi pengecaman muka."
         },
         "project_7": {
             "title": "Digital Resilience SBX",
-            "start_date": "March 2021",
-            "end_date": "March 2022",
-            "category": "Internship",
-            "status": "Completed",
-            "description": "We,a group consist of 6 members from University of Malaya have been commissioned by Dr Yenni Tim from The University of New South Wales to create a prototype of Cyber Security Assessment Web application. I am responsible for the backend development of the project together with my group leader. Throughout the project, I have learned how to design database, implementing the designs in Django by writing the models and creating API's for CRUD operations. I have also learned how to conduct unit testing and customise Django Admin Page. Furthermore, I have also learned how to setup Docker and Docker Compose to allow us to deploy as a droplet in Digital Ocean."
+            "start_date": "Mac 2021",
+            "end_date": "Mac 2022",
+            "category": "Kerja Sambilan",
+            "status": "Selesai",
+            "description": "Kami, sebuah kumpulan yang terdiri daripada 6 ahli dari Universiti Malaya telah ditugaskan oleh Dr Yenni Tim dari The University of New South Wales untuk mencipta prototaip aplikasi Web Penilaian Keselamatan Siber. Saya bertanggungjawab untuk pembangunan bahagian belakang projek bersama-sama dengan ketua kumpulan saya. Sepanjang projek ini, saya telah mempelajari cara mereka bentuk pangkalan data, melaksanakan reka bentuk dalam Django dengan menulis model dan mencipta API untuk operasi CRUD. Saya juga telah mempelajari cara menjalankan ujian unit dan menyesuaikan Halaman Pentadbiran Django. Tambahan pula, saya juga telah mempelajari cara untuk menyediakan Docker dan Docker Compose untuk membolehkan kami mengerahkan sebagai titisan di Lautan Digital."
         },
         "project_8": {
-            "title": "Expense Tracker",
-            "start_date": "January 2022",
-            "end_date": "Present",
-            "category": "Self Project",
-            "status": "Ongoing",
-            "description": "Started Expense Tracker project to further enhance my mobile development skillsets. I have learned deeper about Flutter's State Management (Cubit and State). Furthermore, I have also learned how to perform CRUD operations through utilising Firebase's Firestore as a No SQL database."
+            "title": "Penjejak Perbelanjaan",
+            "start_date": "Januari 2022",
+            "end_date": "Kini",
+            "category": "Projek Kendiri",
+            "status": "Berterusan",
+            "description": "Memulakan projek Penjejak Perbelanjaan untuk meningkatkan lagi kemahiran pembangunan mudah alih saya. Saya telah mempelajari lebih mendalam tentang Pengurusan State Flutter (Cubit dan State). Tambahan pula, saya juga telah mempelajari cara melaksanakan operasi CRUD melalui penggunaan Firestore Firebase sebagai pangkalan data No SQL."
+        },
+        "project_9": {
+            "title": "Laman Web Portfolio V2",
+            "start_date": "Mac 2022",
+            "end_date": "April 2022",
+            "category": "Projek Kendiri",
+            "status": "Selesai",
+            "description": "Memutuskan untuk menggunakan kemahiran yang telah saya pelajari semasa latihan saya untuk membina semula halaman web portfolio saya menggunakan Nuxt Js dan dihoskan di Netlify. Ini adalah laman web portfolio lama saya, https://edwardweeold.netlify.app/ sebelum menjalani latihan amali. Telah menggunakan reka bentuk responsif mudah alih pada laman web portfolio semasa."
         }
     },
-    "experience": "Experience",
-    "skills": "Skills",
-    "projects": "Projects",
+    "experience": "Pengalaman",
+    "skills": "Kemahiran",
+    "projects": "Projek",
     "chinese": "简体中文",
-    "contact": "Contact",
+    "contact": "Hubung",
     "english": "English",
     "footer": {
-        "credit": "Copyright © 2022 Edward Wee. All rights reserved."
+        "credit": "Hak Cipta Terpelihara © 2022 Edward Wee."
     },
-    "home": "Home",
+    "home": "Laman utama",
     "malay": "Malay"
 }

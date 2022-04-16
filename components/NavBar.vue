@@ -117,19 +117,19 @@ export default {
           route: "/",
         },
         {
-          title: "Experience",
+          title: "experience",
           route: "/experience",
         },
         {
-          title: "Skills",
+          title: "skills",
           route: "/skills",
         },
         {
-          title: "Projects",
+          title: "projects",
           route: "/project",
         },
         {
-          title: "Contact",
+          title: "contact",
           route: "/contact",
         },
       ],

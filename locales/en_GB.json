@@ -127,7 +127,7 @@
         "project_6": {
             "title": "Hexfere HRMS Jetson Nano Web Application",
             "start_date": "December 2021",
-            "end_date": "January 2021",
+            "end_date": "January 2022",
             "category": "Internship",
             "status": "Completed",
             "description": "Created a web application to using Flask allowing the ML team to integrate it's facial recognition technology into it. The micro-framework Flask reduces the resource utilisation and allows Jetson Nano to allocate more resources for the facial recognition technology."
@@ -136,7 +136,7 @@
             "title": "Digital Resilience SBX",
             "start_date": "March 2021",
             "end_date": "March 2022",
-            "category": "Internship",
+            "category": "Part Time",
             "status": "Completed",
             "description": "We,a group consist of 6 members from University of Malaya have been commissioned by Dr Yenni Tim from The University of New South Wales to create a prototype of Cyber Security Assessment Web application. I am responsible for the backend development of the project together with my group leader. Throughout the project, I have learned how to design database, implementing the designs in Django by writing the models and creating API's for CRUD operations. I have also learned how to conduct unit testing and customise Django Admin Page. Furthermore, I have also learned how to setup Docker and Docker Compose to allow us to deploy as a droplet in Digital Ocean."
         },
