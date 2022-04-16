@@ -16,19 +16,6 @@
           <nav class="mb-3">
             <b-nav id="drawer-nav" vertical>
               <div class="sidebar-header">
-                <img
-                 v-if="$colorMode.value == 'light'"
-                  class="sidebar-icon"
-                  src="~/assets/icons/common/edwardwee.png"
-                  @click="$router.push('/')"
-                />
-                  <img
-                 v-if="$colorMode.value == 'dark'"
-                  class="sidebar-icon"
-                  src="~/assets/icons/common/edwardweedark.png"
-                  @click="$router.push('/')"
-                />
-
 
                 <b-nav-item active @click="hide">
                   <img
@@ -169,7 +156,7 @@ span{
   .sidebar-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0;
     margin-top: 8%;
     margin-bottom: 10%;

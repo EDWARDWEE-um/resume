@@ -8,11 +8,7 @@
     <p>
       {{ $t("homepage.description") }}
     </p>
-    <div>
-      <a href="./Wee Chee Shen CV.pdf" download>
-        Download
-      </a>
-    </div>
+      <a class="btn" href="./Wee Chee Shen CV.pdf" download> Resume </a>
   </div>
 </template>
 
@@ -34,6 +30,21 @@ export default {
   height: 600px;
   margin-left: 3%;
   margin-top: 1%;
+  .btn {
+    color:white;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70px;
+    box-shadow: 0 13px 26px rgba(#000, 0.16), 0 2px 4px var(--color-line);
+    background: linear-gradient(45deg, var(--bg-secondary) 0%,var(--resume-button-active) 100%);
+  }
   h1.title {
     font-variant: bold;
     font-weight: 700;
