@@ -57,6 +57,7 @@ export default {
   .card {
     width: 200px;
     height: 180px;
+    padding-bottom: 50px;
     h5 {
       font-size: 20px;
     }

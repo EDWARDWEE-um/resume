@@ -83,6 +83,7 @@ export default {
     justify-content: flex-start;
     align-content: center;
     min-height: 100vh;
+    padding-bottom: 50px;
     .contact-container-two {
       display: flex;
       flex-direction: column;

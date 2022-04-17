@@ -5,7 +5,7 @@
         "role": "Jurutera Perisian",
         "greeting": "Salam Sejahtera",
         "about_me": "Tentang Saya",
-        "description": "Saya seorang jurutera perisian yang beraspirasi dan mempunyai pengalaman membina aplikasi web dan mobile. Saya kini berada di tahun akhir pengajian saya untuk a Sarjana Muda dalam Sains Komputer pengkhususan dalam sistem komputer dan rangkaian di Universiti Malaya dan sedang mencari peluang kerjaya.",
+        "description": "Saya seorang jurutera perisian yang beraspirasi dan mempunyai pengalaman membina aplikasi web dan mobile. Saya kini berada di tahun akhir pengajian saya, Sarjana Muda dalam Sains Komputer pengkhususan dalam sistem komputer dan rangkaian di Universiti Malaya dan sedang mencari peluang kerjaya.",
         "resume": "Resume",
         "projects": "Projek"
     },
@@ -47,7 +47,7 @@
         }
     },
     "contact_page": {
-        "title_1": "HUBUNGI",
+        "title_1": "HUBUNGI ",
         "title_2": "SAYA",
         "subtitle": "HENDAK BERHUBUNG? INI BAGAIMANA BELIAU BOLEH MENGHUBUNGI SAYA.",
         "contact_1_description": "Hantarkan e-mel kepada saya !",
