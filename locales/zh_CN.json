@@ -17,27 +17,27 @@
         "education_1": {
             "date": "2012 年 - 2016 年",
             "experience": "Sijil Pelajaran Malaysia (SPM)",
-            "description": "获得全科 A 在纯理科学 ( 2A+ , 6A , 1A- )"
+            "description": "纯理科学生,获得全科 A ( 2A+ , 6A , 1A- )"
         },
         "education_2": {
             "date": "2017 年 - 2018 年",
             "experience": "Sijil Tinggi Persekolahan Malaysia (STPM)",
-            "description": "获得全科 CGPA 3.83 ( 3A , 1B+ ) 在纯理科学"
+            "description": "纯理科学生,获得 CGPA 3.83 ( 3A , 1B+ )"
         },
         "education_3": {
-            "date": "从 2019 年 9 月开始",
+            "date": "2019 年 9 月至今",
             "experience": "UM 计算机科学学士",
-            "description": "主修计算机系统和网络在 University of Malaya (CGPA of 3.96)"
+            "description": "在马大主修计算机系统和网络 (CGPA of 3.96)"
         },
         "professional_1": {
             "date": "2021 年 3 月 - 2022 年 3 月",
             "experience": "Digital Resilience SBX (DRSBX)",
-            "description": "我们由 6 人组成的团队接受了 University of New South Wales 大学的任务，开发了一个安全评估 Web App。我是这个项目的 backend 工程师。"
+            "description": "参与了6人组成的团队接受了 University of New South Wales 大学的任务，开发了一个安全评估网络软件。我是这个项目的幕后工程师。"
         },
         "professional_2": {
             "date": "2021 年 7 月 - 2022 年 1 月",
             "experience": "Cognixus Technologies - 软件工程师实习生",
-            "description": "作为软件工程师进行了工业培训。学习了如何设计和开发 Mobile 和 Web App。学习了如何写和部署 Docker。"
+            "description": "作为软件工程师进行了工作培训。任职期间,学习了如何设计和开发手机和网络软件以及如何写和部署 Docker。"
         },
         "professional_3": {
             "date": "2022 年 3 月 - 至今",
@@ -49,7 +49,7 @@
         "title_1": "保持",
         "title_2": "联系",
         "subtitle": "想取得联系？您可以通过以下方式联系我。",
-        "contact_1_description": "传一个电子邮件给我!",
+        "contact_1_description": "传电子邮件给我!",
         "contact_2_description": "在 Whatsapp 上给我留言!",
         "contact_3_description": "让我们在 LinkedIn 上联系吧!",
         "contact_4_description": "查看我的 Github 存储库!",
