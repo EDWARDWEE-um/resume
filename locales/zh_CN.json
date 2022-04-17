@@ -85,7 +85,7 @@
         "category": "项目类别",
         "status": "项目状态",
         "project_1": {
-            "title": "BeFitter",
+            "title": "BeFitter 网络软件",
             "start_date": "2020 年 12 月",
             "end_date": "2021 年 1 月",
             "category": "私人项目",
@@ -109,7 +109,7 @@
             "description": "我们的任务是创建一个应用程序来计算用户输入的两个位置之间的最短可行驶距离。我们使用 Map Box API 并利用 min-heap 算法来计算和确定 Map Box API 提供的最短距离。"
         },
         "project_4": {
-            "title": "Pay It Forward Mobile Application",
+            "title": "Pay It Forward 手机软件",
             "start_date": "2021 年 7 月",
             "end_date": "2021年10月",
             "category": "实习",
@@ -125,7 +125,7 @@
             "description": "我和一位来自 UM 的实习生的任务是为 Pay It Forward (PIF) 开发一个网站。我已经学会了如何使用 Nuxt Js 开发网站，该网站具有使用 i18n 服务的语言切换功能和使用 vee-validate 的电子邮件验证。我还学习了如何编写 Docker Commands 并将 Docker 映像部署到 Kubernetes 集群。"
         },
         "project_6": {
-            "title": "Hexfere HRMS Jetson Nano Web Application",
+            "title": "Hexfere HRMS Jetson Nano 网络软件",
             "start_date": "2021 年 12 月",
             "end_date": "2022 年 1 月",
             "category": "实习",
@@ -141,7 +141,7 @@
             "description": "我们，一个由马来亚大学的 6 名成员组成的小组，受新南威尔士大学的 Yenni Tim 博士的委托，创建了一个网络安全评估网站的原型。我和我的组长一起负责项目的后端开发。在整个项目中，我学习了如何设计数据库，通过编写模型和为 CRUD 操作创建 API 来在 Django 中实现设计。我还学习了如何进行单元测试和自定义 Django 管理页面。此外，我还学习了如何设置 Docker 和 Docker Compose 以允许我们在 Digital Ocean 的 Droplet 部署。"
         },
         "project_8": {
-            "title": "费用跟踪 Mobile App",
+            "title": "费用跟踪手机软件",
             "start_date": "2022 年 1 月",
             "end_date": "现在",
             "category": "私人项目",
